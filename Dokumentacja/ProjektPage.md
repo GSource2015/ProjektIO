@@ -43,7 +43,7 @@ Ponadto będzie trzeba nakręcić parę filmów prezentujących samą rozgrywkę
 
 <li>Dyrektor firmy
 </ul>
-<h2>Kolejne iteracje<\h2>
+<h2>Kolejne iteracje</h2>
 1. Opracowanie głównego planu projektu
 
 
@@ -70,7 +70,7 @@ Ponadto będzie trzeba nakręcić parę filmów prezentujących samą rozgrywkę
 
 <li>Jako gracz chciałbym mieć możliwość zapisywania map innych twórców na dysku, by możliwe było używanie ich bez dostępu do Internetu.
 
-<\ul>
+</ul>
 
 
 
