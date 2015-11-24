@@ -1,31 +1,31 @@
 <b>Nazwa</b>
 
 
-Zapisanie mapy w chmurze
+<ul>Zapisanie mapy w chmurze</ul>
 
 
 <b>Identyfikator</b>
 
 
-UC04
+<ul>UC04</ul>
 
 
 <b>Opis</b>
 
 
-Zapisanie stworzonej mapy na chmurze, by móc potem importować ją w grze.
+<ul>Zapisanie stworzonej mapy na chmurze, by móc potem importować ją w grze.</ul>
 
 
 <b>Aktorzy</b>
 
 
-Projektant Poziomów, Chmura
+<ul>Projektant Poziomów, Chmura</ul>
 
 
 <b>Cel</b>
 
 
-Zapisanie mapy na chmurze, by udostępnić ją innym.
+<ul>Zapisanie mapy na chmurze, by udostępnić ją innym.</ul>
 
 
 <b>Cele użytkowników</b>
@@ -43,23 +43,23 @@ Zapisanie mapy na chmurze, by udostępnić ją innym.
 
 <b>Warunki początkowe</b>
 
-Uruchomienie programu.
+<ul>Uruchomienie programu.</ul>
 
 <b>Warunki końcowe</b>
 
-Zapisanie mapy w chmurze
+<ul>Zapisanie mapy w chmurze</ul>
 
 <b>Założenia</b>
 
-Projektant stworzył część mapy, projektant posiada konto w chmurze.
+<ul>Projektant stworzył część mapy, projektant posiada konto w chmurze.</ul>
 
 <b>Częstotliwość</b>
 
-Kilka razy tygodniowo.
+<ul>Kilka razy tygodniowo.</ul>
 
 <b>Wyzwalacz</b>
 
-Wybranie akcji Zapisz mapę a potem Chmura, w dowolnym momencie podczas przypadku użycia Tworzenie mapy.
+<ul>Wybranie akcji Zapisz mapę a potem Chmura, w dowolnym momencie podczas przypadku użycia Tworzenie mapy.</ul>
 
 <b>Podstawowy przebieg</b>
 <ul>
