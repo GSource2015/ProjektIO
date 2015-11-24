@@ -37,9 +37,7 @@ twórców, do edycji.
     1. Projektant poziomów: Możliwość zapisywania map wyłącznie do własnego użytku
 
 
-    2. Projektant poziomów: Brak konieczności połączenia z Internetem do pracy w 
-
-programie
+    2. Projektant poziomów: Brak konieczności połączenia z Internetem do pracy w programie
 
 
     3. Projektant poziomów: Możliwość zapisywania niedokończonych map.
@@ -90,11 +88,7 @@ Tworzenie mapy.
     1. Pojawia się eksplorator plików
 
 
-    2. W eksploratorze wyboru można wybrać w jaki sposób zapisać mapę: kompletną lub 
-
-niekompletną. Będą one się różniły rozszerzeniem i mapy niekompletnej nie można 
-
-wczytać do gry.
+    2. W eksploratorze wyboru można wybrać w jaki sposób zapisać mapę: kompletną lub niekompletną. Będą one się różniły rozszerzeniem i mapy niekompletnej nie można wczytać do gry.
 
 
     3. Po wyborze nazwy i rozszerzenia system zapisuje plik na dysku.
