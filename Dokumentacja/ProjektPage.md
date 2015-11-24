@@ -1,7 +1,7 @@
-<b>EDYTOR DO GRY</b>
+<h3><b>EDYTOR DO GRY</b>
 
 
-<b>TWISTED MIND</b>
+<b>TWISTED MIND</b></h3>
 
 
 <b>A. Project Page.</b>
