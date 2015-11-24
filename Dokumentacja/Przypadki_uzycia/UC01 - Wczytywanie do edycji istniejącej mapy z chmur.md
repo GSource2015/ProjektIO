@@ -95,13 +95,13 @@ Wybranie akcji Wczytaj mapę a potem Chmura, w dowolnym momencie podczas przypad
     1a.	Nie można połączyć się z chmurą, ponieważ brak połączenia z Internetem lub chmura jest nieosiągalna
 
 
-    1a1.	Możliwość wyboru opcji Ponownej próby połączenia lub Anulowania akcji
+         1a1.	Możliwość wyboru opcji Ponownej próby połączenia lub Anulowania akcji
 
 
-    1a2.	Wybranie ponownej próby połączenia spowoduje wykonywanie przebiegu głównego na nowo.
+         1a2.	Wybranie ponownej próby połączenia spowoduje wykonywanie przebiegu głównego na nowo.
 
 
-    1a2. Wybranie anulowania akcji spowoduje porzucenie całego scenariusza.
+        1a2. Wybranie anulowania akcji spowoduje porzucenie całego scenariusza.
 
 
 <b>Przebieg alternatywny</b>
@@ -110,7 +110,7 @@ Wybranie akcji Wczytaj mapę a potem Chmura, w dowolnym momencie podczas przypad
     2a.	W bazie danych nie ma żadnych map.
 
 
-    2a1.	System informuje użytkownika, że baza danych jest pusta
+        2a1.	System informuje użytkownika, że baza danych jest pusta
 
 
 <b>Przebieg alternatywny</b>
@@ -119,10 +119,10 @@ Wybranie akcji Wczytaj mapę a potem Chmura, w dowolnym momencie podczas przypad
     7a.	Projektant poziomów pracował już nad jakąś mapą
 
 
-    7a1.	System pyta się czy należy zapisać istniejącą mapę
+        7a1.	System pyta się czy należy zapisać istniejącą mapę
 
 
-    7a2.	Jeśli tak, to uruchamiany jest UC02 - Zapisywanie mapy na dysku
+        7a2.	Jeśli tak, to uruchamiany jest UC02 - Zapisywanie mapy na dysku
 
 
 Dalej wszystko przebiega zgodnie z głównym scenariuszem.
