@@ -100,10 +100,10 @@ Tworzenie mapy.
     1a. Projektant poziomów pracuje na już istniejącym pliku.
 
 
-    1a1. Zapis powoduje nadpisanie istniejącej wersji pliku.
+        1a1. Zapis powoduje nadpisanie istniejącej wersji pliku.
 
 
-    1a2. Aby zapisać poziom w nowym pliku należy użyć opcji Zapisz jako.
+        1a2. Aby zapisać poziom w nowym pliku należy użyć opcji Zapisz jako.
 
 
 <b>Przebieg alternatywny</b>
@@ -112,10 +112,10 @@ Tworzenie mapy.
     2a. Projektant poziomów próbuje zapisać mapę niekompletną jako kompletną
 
 
-    2a1. Sprawdzane jest, czy mapa ma odpowiednią wielkość
+        2a1. Sprawdzane jest, czy mapa ma odpowiednią wielkość
 
 
-    2a2. Sprawdzana jest możliwość przejścia mapy.
+        2a2. Sprawdzana jest możliwość przejścia mapy.
 
 
 <b>Przebieg alternatywny</b>
@@ -124,4 +124,4 @@ Tworzenie mapy.
     3a. Brak miejsca na dysku lub brak dostępu
 
 
-    3a1. Pojawia się komunikat o błędzie i akcja 3 jest powtarzana.
+        3a1. Pojawia się komunikat o błędzie i akcja 3 jest powtarzana.
