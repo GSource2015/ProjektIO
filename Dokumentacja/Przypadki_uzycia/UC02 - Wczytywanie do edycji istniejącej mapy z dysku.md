@@ -58,7 +58,7 @@ Wczytanie mapy do edytora
 <b>Założenia</b>
 
 
-&#9-
+        -
 
 
 <b>Częstotliwość</b>
