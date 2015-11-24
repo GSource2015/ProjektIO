@@ -94,10 +94,10 @@ Wybranie akcji Wczytaj mapę a potem Dysk, w dowolnym momencie podczas przypadku
     4a.	Projektant poziomów pracował już nad jakąś mapą
 
 
-    4a1.	System pyta się czy należy zapisać istniejącą mapę
+        4a1.	System pyta się czy należy zapisać istniejącą mapę
 
 
-    4a2.	Jeśli tak, to uruchamiany jest UC03 - Zapisywanie mapy na dysku
+        4a2.	Jeśli tak, to uruchamiany jest UC03 - Zapisywanie mapy na dysku
 
 
 Dalej wszystko przebiega zgodnie z głównym scenariuszem.
@@ -109,10 +109,10 @@ Dalej wszystko przebiega zgodnie z głównym scenariuszem.
     4b.	Brak miejsca w pamięci do wczytania mapy
 
 
-    4b1.	Zrzucenie istotnych danych na dysk.
+        4b1. Zrzucenie istotnych danych na dysk.
 
 
-    4b2. Zamknięcie programu
+        4b2. Zamknięcie programu
 
 
 <b>Rozszerzane przypadki użycia</b>
