@@ -30,19 +30,15 @@ Zapisanie mapy na chmurze, by udostępnić ją innym.
 
 <b>Cele użytkowników</b>
 <ul>
-1. Projektant poziomów: Możliwość dzielenia się swoimi mapami z innymi.
+1. Projektant poziomów: Możliwość dzielenia się swoimi mapami z innymi.<br>
 
+2. Projektant poziomów: Bezpieczne przechowywanie kopii mapy.<br>
 
-2. Projektant poziomów: Bezpieczne przechowywanie kopii mapy.
+3. Gracz: łatwość dostępu do poziomów stworzonych przez innych graczy.<br>
 
+4. Gracz: zebranie wszystkich poziomów w jednym miejscu.<br>
 
-3. Gracz: łatwość dostępu do poziomów stworzonych przez innych graczy.
-
-
-4. Gracz: zebranie wszystkich poziomów w jednym miejscu.
-
-
-5. Gracz: dostęp do poziomów z jednego miejsca.
+5. Gracz: dostęp do poziomów z jednego miejsca.<br>
 </ul>
 
 <b>Warunki początkowe</b>
@@ -67,23 +63,20 @@ Wybranie akcji Zapisz mapę a potem Chmura, w dowolnym momencie podczas przypadk
 
 <b>Podstawowy przebieg</b>
 <ul>
-1. Należy zalogować się na konto
+1. Należy zalogować się na konto<br>
 
+2. W oknie dialogowym należy wpisać nazwę i ewentualnie opis mapy <br>
 
-2. W oknie dialogowym należy wpisać nazwę i ewentualnie opis mapy 
+3. Można wybrać czy mapa ma być dostępna publicznie w katalogu czy prywatnie, poprzez <br>
 
-
-3. Można wybrać czy mapa ma być dostępna publicznie w katalogu czy prywatnie, poprzez 
-
-
-4. Po dodaniu mapy nadany jest jej unikalny identyfikator.
+4. Po dodaniu mapy nadany jest jej unikalny identyfikator.<br>
 </ul>
 <b>Przebieg alternatywny</b>
 <ul>
 1a. Użytkownik wpisał złe dane logowania ID
 <ul>
 1a1. Pojawia się komunikat o wpisaniu złych danych i akcje jest ponawiana
-
+<br>
 
 Dalej wszystko zgodnie z głównym scenariuszem
 
@@ -97,7 +90,7 @@ Dalej wszystko zgodnie z głównym scenariuszem
 <ul>
 2a1. Pojawia się komunikat o wpisaniu niepoprawnej nazwy i akcja jest ponawiana
 
-
+<br>
 Dalej wszystko zgodnie z głównym scenariuszem
 </ul>
 </ul>
