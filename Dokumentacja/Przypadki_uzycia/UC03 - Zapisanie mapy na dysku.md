@@ -1,4 +1,4 @@
-<b>Nazwa</b>
+<b>Nazwa</b> 
 
 
 Zapisanie mapy na dysku
