@@ -29,19 +29,19 @@ Ponadto będzie trzeba nakręcić parę filmów prezentujących samą rozgrywkę
 <b>Interesariusze:</b>
 
 
-Społeczność graczy
+<ul>Społeczność graczy
 
 
-Platforma Steam
+<ul>Platforma Steam
 
 
-Manager grupy projektującej grę (a nie edytor)
+<ul>Manager grupy projektującej grę (a nie edytor)
 
 
-Programiści tworzący grę
+<ul>Programiści tworzący grę
 
 
-Dyrektor firmy
+<ul>Dyrektor firmy
 
 
 1. Opracowanie głównego planu projektu
@@ -52,22 +52,22 @@ Dyrektor firmy
 
 <b>USER STORIES dla edytora:</b>
 
-Jako projektant map chcę mieć możliwość wczytywania już stworzonych map, by je później przerabiać lub zmieniać.
+<ul>Jako projektant map chcę mieć możliwość wczytywania już stworzonych map, by je później przerabiać lub zmieniać.
 
 
-Jako projektant map chcę mieć wizualizację w trybie rzeczywistym tworzonej mapy, by lepiej widzieć co robię.
+<ul>Jako projektant map chcę mieć wizualizację w trybie rzeczywistym tworzonej mapy, by lepiej widzieć co robię.
 
 
-Jako projektant map chcę mieć miejsce publiczne w którym mogę przechowywać stworzone przeze mnie mapy by dzielić się nimi ze społecznością graczy.
+<ul>Jako projektant map chcę mieć miejsce publiczne w którym mogę przechowywać stworzone przeze mnie mapy by dzielić się nimi ze społecznością graczy.
 
 
-Jako projektant map chcę mieć możliwość graficznego tworzenia poziomu, by móc go tworzyć szybciej i intuicyjnie.
+<ul>Jako projektant map chcę mieć możliwość graficznego tworzenia poziomu, by móc go tworzyć szybciej i intuicyjnie.
 
 
-Jako gracz chcę mieć możliwość darmowego dostępu do map stworzonych przez innych graczy by móc w nie grać.
+<ul>Jako gracz chcę mieć możliwość darmowego dostępu do map stworzonych przez innych graczy by móc w nie grać.
 
 
-Jako gracz chciałbym mieć możliwość zapisywania map innych twórców na dysku, by możliwe było używanie ich bez dostępu do Internetu.
+<ul>Jako gracz chciałbym mieć możliwość zapisywania map innych twórców na dysku, by możliwe było używanie ich bez dostępu do Internetu.
 
 
 
@@ -85,8 +85,8 @@ Jako gracz chciałbym mieć możliwość zapisywania map innych twórców na dys
 
 <b>Rozwiązania architektoniczne:</b>
 
-Gra wydana na Windows, ponieważ jest to najszerzej dostępna dla nas grupa docelowa: większość graczy używa Windows. W przyszłości niewykluczony port na Linux.
+<ul>Gra wydana na Windows, ponieważ jest to najszerzej dostępna dla nas grupa docelowa: większość graczy używa Windows. W przyszłości niewykluczony port na Linux.
 
-Silnik gry tworzony w OpenGL w C++, ponieważ grupa ma w tym środowisku największe doświadczenie, a także cechuje się on szybkością działania (a przenośność nie jest aż tak kluczowym aspektem w 1 fazie projektu)
+<ul>Silnik gry tworzony w OpenGL w C++, ponieważ grupa ma w tym środowisku największe doświadczenie, a także cechuje się on szybkością działania (a przenośność nie jest aż tak kluczowym aspektem w 1 fazie projektu)
 
-Edytor tworzony w wxWidgets w C++, ponieważ jest to niezawodna i łatwa w użyciu biblioteka, a także wieloplatformowa.
+<ul>Edytor tworzony w wxWidgets w C++, ponieważ jest to niezawodna i łatwa w użyciu biblioteka, a także wieloplatformowa.
