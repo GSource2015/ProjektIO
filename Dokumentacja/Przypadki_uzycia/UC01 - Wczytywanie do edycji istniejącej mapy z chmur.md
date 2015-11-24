@@ -74,9 +74,7 @@ Wybranie akcji Wczytaj mapę a potem Chmura, w dowolnym momencie podczas przypad
     3.	W oknie dialogowym, które się pojawiło, należy wybrać mapę, którą projektant chce edytować.
 
 
-    4.	Podczas wybierania mapy dostępny jest ich podgląd, nazwa, ocena, data dodania oraz typ poziomu (tło, odpowiedzialne<br> 
-
-tylko za wygląd).
+    4.	Podczas wybierania mapy dostępny jest ich podgląd, nazwa, ocena, data dodania oraz typ poziomu (tło, odpowiedzialne tylko za wygląd).
 
 
     5.	Możliwe jest sortowanie map wg oceny, nazwy, daty dodania oraz tła.
