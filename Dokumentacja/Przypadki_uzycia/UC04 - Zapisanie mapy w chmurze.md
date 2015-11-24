@@ -32,11 +32,15 @@ Zapisanie mapy na chmurze, by udostępnić ją innym.
 <ul>
 1. Projektant poziomów: Możliwość dzielenia się swoimi mapami z innymi.
 
+
 2. Projektant poziomów: Bezpieczne przechowywanie kopii mapy.
+
 
 3. Gracz: łatwość dostępu do poziomów stworzonych przez innych graczy.
 
+
 4. Gracz: zebranie wszystkich poziomów w jednym miejscu.
+
 
 5. Gracz: dostęp do poziomów z jednego miejsca.
 </ul>
@@ -65,9 +69,12 @@ Wybranie akcji Zapisz mapę a potem Chmura, w dowolnym momencie podczas przypadk
 <ul>
 1. Należy zalogować się na konto
 
+
 2. W oknie dialogowym należy wpisać nazwę i ewentualnie opis mapy 
 
+
 3. Można wybrać czy mapa ma być dostępna publicznie w katalogu czy prywatnie, poprzez 
+
 
 4. Po dodaniu mapy nadany jest jej unikalny identyfikator.
 </ul>
@@ -76,15 +83,21 @@ Wybranie akcji Zapisz mapę a potem Chmura, w dowolnym momencie podczas przypadk
 1a. Użytkownik wpisał złe dane logowania ID
 <ul>
 1a1. Pojawia się komunikat o wpisaniu złych danych i akcje jest ponawiana
-</ul>
-</ul>
+
+
 Dalej wszystko zgodnie z głównym scenariuszem
+
+</ul>
+</ul>
+
 
 <b>Przebieg alternatywny</b>
 <ul>
 2a. Użytkownik  nie wpisał nazwy
 <ul>
 2a1. Pojawia się komunikat o wpisaniu niepoprawnej nazwy i akcja jest ponawiana
+
+
+Dalej wszystko zgodnie z głównym scenariuszem
 </ul>
 </ul>
-Dalej wszystko zgodnie z głównym scenariuszem.
