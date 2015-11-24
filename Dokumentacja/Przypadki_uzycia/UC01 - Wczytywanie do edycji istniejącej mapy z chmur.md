@@ -95,13 +95,13 @@ Wybranie akcji Wczytaj mapę a potem Chmura, w dowolnym momencie podczas przypad
     1a.	Nie można połączyć się z chmurą, ponieważ brak połączenia z Internetem lub chmura jest nieosiągalna
 
 
-         1a1.	Możliwość wyboru opcji Ponownej próby połączenia lub Anulowania akcji
+        1a1.	Możliwość wyboru opcji Ponownej próby połączenia lub Anulowania akcji
 
 
-         1a2.	Wybranie ponownej próby połączenia spowoduje wykonywanie przebiegu głównego na nowo.
+        1a2.	Wybranie ponownej próby połączenia spowoduje wykonywanie przebiegu głównego na nowo.
 
 
-        1a2. Wybranie anulowania akcji spowoduje porzucenie całego scenariusza.
+        1a3. Wybranie anulowania akcji spowoduje porzucenie całego scenariusza.
 
 
 <b>Przebieg alternatywny</b>
