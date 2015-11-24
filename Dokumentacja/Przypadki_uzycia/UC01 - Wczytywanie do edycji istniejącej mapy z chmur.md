@@ -23,13 +23,13 @@ Modyfikacja istniejącej mapy, stworzonej przez innego użytkownika lub tego sam
 <b>Cele użytkowników</b>
 <ul>
 
-    1.	Projektant poziomów: Łatwy dostęp do map stworzonych przez innych użytkowników
+    1.	Projektant poziomów: Łatwy dostęp do map stworzonych przez innych użytkowników<br>
 
 
-    2.	Projektant poziomów: Wczytywanie map bezpośrednio z chmury 
+    2.	Projektant poziomów: Wczytywanie map bezpośrednio z chmury <br>
 
 
-    3.	Gracz: dostęp do zmodyfikowanej zawartości popularnych poziomów
+    3.	Gracz: dostęp do zmodyfikowanej zawartości popularnych poziomów<br>
 
 </ul>
 <b>Warunki początkowe</b>
@@ -66,53 +66,53 @@ Wybranie akcji Wczytaj mapę a potem Chmura, w dowolnym momencie podczas przypad
 <ul>
 
 
-1.	System łączy się z chmurą
+1.	System łączy się z chmurą<br>
 
 
-2.	System wczytuje bazę danych istniejących map.
+2.	System wczytuje bazę danych istniejących map.<br>
 
 
-3.	W oknie dialogowym, które się pojawiło, należy wybrać mapę, którą projektant chce edytować.
+3.	W oknie dialogowym, które się pojawiło, należy wybrać mapę, którą projektant chce edytować.<br>
 
 
-4.	Podczas wybierania mapy dostępny jest ich podgląd, nazwa, ocena, data dodania oraz typ poziomu (tło, odpowiedzialne tylko za wygląd).
+4.	Podczas wybierania mapy dostępny jest ich podgląd, nazwa, ocena, data dodania oraz typ poziomu (tło, odpowiedzialne tylko za wygląd).<br>
 
 
-5.	Możliwe jest sortowanie map wg oceny, nazwy, daty dodania oraz tła.
+5.	Możliwe jest sortowanie map wg oceny, nazwy, daty dodania oraz tła.<br>
 
 
-6.	Wpisując bezpośredni kod mapy, możemy uzyskać dostęp do map prywatnych.
+6.	Wpisując bezpośredni kod mapy, możemy uzyskać dostęp do map prywatnych.<br>
 
 
-7.	Po wybraniu mapy system upewnia się, czy na pewno chcemy wybrać tą mapę.
+7.	Po wybraniu mapy system upewnia się, czy na pewno chcemy wybrać tą mapę.<br>
 
 
-8.	System wczytuje mapę do pamięci.
+8.	System wczytuje mapę do pamięci.<br>
 
 </ul>
 <b>Przebieg alternatywny</b>
 <ul>
 
-1a.	Nie można połączyć się z chmurą, ponieważ brak połączenia z Internetem lub chmura jest nieosiągalna
+1a.	Nie można połączyć się z chmurą, ponieważ brak połączenia z Internetem lub chmura jest nieosiągalna<br>
 
 <ul>
-1a1.	Możliwość wyboru opcji Ponownej próby połączenia lub Anulowania akcji
+1a1.	Możliwość wyboru opcji Ponownej próby połączenia lub Anulowania akcji<br>
 
 
-1a2.	Wybranie ponownej próby połączenia spowoduje wykonywanie przebiegu głównego na nowo.
+1a2.	Wybranie ponownej próby połączenia spowoduje wykonywanie przebiegu głównego na nowo.<br>
 
 
-1a3. Wybranie anulowania akcji spowoduje porzucenie całego scenariusza.
+1a3. Wybranie anulowania akcji spowoduje porzucenie całego scenariusza.<br>
 </ul>
 </ul>
 <b>Przebieg alternatywny</b>
 
 <ul>
-2a.	W bazie danych nie ma żadnych map.
+2a.	W bazie danych nie ma żadnych map.<br>
 
 
 <ul>
-2a1.	System informuje użytkownika, że baza danych jest pusta
+2a1.	System informuje użytkownika, że baza danych jest pusta<br>
 </ul>
 </ul>
 <b>Przebieg alternatywny</b>
@@ -121,10 +121,10 @@ Wybranie akcji Wczytaj mapę a potem Chmura, w dowolnym momencie podczas przypad
 7a.	Projektant poziomów pracował już nad jakąś mapą
 <ul>
 
-7a1.	System pyta się czy należy zapisać istniejącą mapę
+7a1.	System pyta się czy należy zapisać istniejącą mapę<br>
 
 
-7a2.	Jeśli tak, to uruchamiany jest UC02 - Zapisywanie mapy na dysku
+7a2.	Jeśli tak, to uruchamiany jest UC02 - Zapisywanie mapy na dysku<br>
 </ul>
 </ul>
 Dalej wszystko przebiega zgodnie z głównym scenariuszem.
