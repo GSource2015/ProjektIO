@@ -67,7 +67,7 @@
 
 2. W oknie dialogowym należy wpisać nazwę i ewentualnie opis mapy <br>
 
-3. Można wybrać czy mapa ma być dostępna publicznie w katalogu czy prywatnie, poprzez <br>
+3. Można wybrać czy mapa ma być dostępna publicznie w katalogu czy prywatnie<br>
 
 4. Po dodaniu mapy nadany jest jej unikalny identyfikator.<br>
 </ul>
