@@ -64,12 +64,6 @@ Ponadto będzie trzeba nakręcić parę filmów prezentujących samą rozgrywkę
 
 <li>Jako projektant map chcę mieć możliwość graficznego tworzenia poziomu, by móc go tworzyć szybciej i intuicyjnie.
 
-
-<li>Jako gracz chcę mieć możliwość darmowego dostępu do map stworzonych przez innych graczy by móc w nie grać.
-
-
-<li>Jako gracz chciałbym mieć możliwość zapisywania map innych twórców na dysku, by możliwe było używanie ich bez dostępu do Internetu.
-
 </ul>
 
 
