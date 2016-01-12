@@ -6,6 +6,8 @@
 </p>
 </font>
 </font>
+
+<hr>
 Spis treści</br>
 Opis produktu	1
 </br>Plan marketingowy	2
