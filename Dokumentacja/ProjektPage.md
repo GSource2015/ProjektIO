@@ -29,6 +29,14 @@ Ponadto będzie trzeba nakręcić parę filmów prezentujących samą rozgrywkę
 <table>
 <tr> <b>Interesariusze:</b> </tr>
 <tr> <b>Oczekiwania:</b> </tr>
+
+
+
+<table>
+<tr align="rodzaj" valign="ustawienie">...</tr>
+</table>
+
+
 	
 Pracownicy (zespół)	Uzyskanie określonego wynagrodzenia
 Klient (firma)	Otrzymanie satysfakcjonującego produktu w terminie
