@@ -1,20 +1,20 @@
 <font color="blue">
-<font size = 16>
-<center>
+<font size = 26>
+<p align="center">
 <h3><b>EDYTOR DO GRY</b></br>
 <b>TWISTED MIND</b></h3></br>
+</p>
 </font>
-</center>
-
+</font>
 <hr>
-_________________________________________________________________________________
 <b> Spis treści </b></br>
 
-<font color="gray">
+<font color="silver">
 <font size = 11>
 <p align="right">
  Michał Krawczyk, 690 002 610, michal7650@gmail.com</br>
 Katarzyna Łęcka, 883 778 663, k_lecka94@vp.pl </br>
+</font>
 </font>
 </p>
 
