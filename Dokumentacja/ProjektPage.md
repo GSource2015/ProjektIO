@@ -5,8 +5,7 @@
 </center>
 
 <hr>
-_________________________________________________________________________________
-<b> Spis treści <b/></br>
+<b> Spis treści </b></br>
 
 <font color="grey">
 <p align="right">
