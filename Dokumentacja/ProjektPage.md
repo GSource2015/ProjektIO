@@ -6,8 +6,10 @@
 </p>
 </font>
 </font>
-<hr>
 <b> Spis treści </b></br>
+
+
+<hr>
 
 <font color="silver">
 <font size = 11>
