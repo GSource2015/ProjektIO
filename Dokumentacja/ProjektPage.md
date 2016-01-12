@@ -91,7 +91,8 @@ USER STORIES dla edytora:</b></br>
 <li>Gra wydana na Windows, ponieważ jest to najszerzej dostępna dla nas grupa docelowa: większość graczy używa Windows. W przyszłości niewykluczony port na Linux. </br>
 <li>Silnik gry tworzony w OpenGL w C++, ponieważ grupa ma w tym środowisku największe doświadczenie, a także cechuje się on szybkością działania (a przenośność nie jest aż tak kluczowym aspektem w 1 fazie projektu) </br>
 <li>Edytor tworzony w wxWidgets w C++, ponieważ jest to niezawodna i łatwa w użyciu biblioteka, a także wieloplatformowa. </br>
-</ul
+</ul>
+
 <b>Kamienie milowe:</b></br>
 <li>Kamień milowy nr 1: </br>
 Stworzenie USE CASES -  Analiza poszczególnych etapów tworzenia oprogramowania. Na jej podstawie opracowane zostały Use Cases. </br>
