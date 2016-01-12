@@ -26,14 +26,9 @@ Gra logiczna typu skasuj 3 takie same elementy. Możliwość tworzenia własnych
 2.	Plan marketingowy: </b></br>
 Marketing dotyczy jedynie samej gry, a nie edytora. Edytor jest pewnym narzędziem, które jest chwytem marketingowym, mającym na celu przyciągnięcie większej ilości graczy. Ponadto edytor ma na celu zmniejszenie monotonności w grze. Gra ma być wydana w postaci cyfrowej: Early Access na platformie Steam. Do tego celu wymagane jest pewne zainteresowanie wokół gry już na fazie produkcji. Planowane jest wydanie dema prezentującego grę wraz z naszym kandydowaniem gry do Steam Green Light, czyli platformy, gdzie gracze głosują na grę, czy ta ma wejść do Early Access czy nie. Demo rozesłane będzie do portali zajmujących się grami a także na forum do publicznego użytku dla graczy, którzy zechcą w grę zagrać. </br>
 Ponadto będzie trzeba nakręcić parę filmów prezentujących samą rozgrywkę, odpowiednio zmontowanych by nie zanudzić oglądającego (wiadomo, nie można oczekiwać nie wiadomo jakiego dynamizmu od gry logicznej), a także prezentującego nasz edytor (w tej fazie powinien być już prawie skończony, jednak nie musi być całkowicie gdyż zostanie dopiero dołączony do gry wydanej przez Early Access). </br>
-
-
-3.	Demo: </br>
+<b>
+3.	Demo:</b> </br>
 Demo będzie zawierało 2 poziomy i bardzo ograniczone drzewko rozwoju, tak by gracz tylko mógł zobaczyć co go czeka i nieco wypróbować te mechanizmy. Ma to na celu wzbudzenie ciekawości jak i niedosytu w graczu. Wraz z demem zrobione będą zrzuty ekranu poziomów, które dostępne będą w pełnej wersji gry, a także prezentujące niektóre umiejętności, które będzie można odblokowywać. </br>
-
-
-
-
 
 <b>
 4.	 Informacje wewnątrzprojektowe:</b></br>
@@ -45,12 +40,12 @@ Demo będzie zawierało 2 poziomy i bardzo ograniczone drzewko rozwoju, tak by g
 <li>Platforma Steam - Wysoka sprzedajność gry</br>
 <li>Manager grupy projektującej grę (a nie edytor) </br>
 <li>Programiści tworzący grę - Uzyskanie określonego wynagrodzenia</br>
-<li>Dyrektor firmy</br>
 </ul>
-5.	<b>Kolejne iteracje</b></br>
+	<b>
+5.	Kolejne iteracje</b></br>
 <ul>
-1. Opracowanie głównego planu projektu</br>
-2. Stworzenie Use Cases I User Stories</br>
+1.	Opracowanie głównego planu projektu</br>
+2.	Stworzenie Use Cases I User Stories</br>
 
 </ul>
 <b>
