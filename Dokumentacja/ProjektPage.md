@@ -6,20 +6,30 @@
 </p>
 </font>
 </font>
-
-<hr>
 Spis treści</br>
-Opis produktu	1
-</br>Plan marketingowy	2
-</br>Demo	2
-</br>Informacje wewnątrzprojektowe	2
-</br>Kolejne iteracje	2
-</br>USER STORIES dla edytora	3
+</t>Opis produktu </br>	2
+</t>Plan marketingowy </br>	2
+</t>Demo </br>	3
+</t>Informacje wewnątrzprojektowe: </br>	3
+</t>Kolejne iteracje</br>	3
+</t>USER STORIES dla edytora</br>	3
+</t>Kamienie milowe</br>	4
+</t>Opis ryzyka</br>	5
+ </t>Plan realizacji </br>	5
+ </t>Instrukcja uruchomienia programu </br>	5
+
+
+
+
+
+
+
+
+
 
 
 
 <hr>
-
 
 <font color="silver">
 <font size = 11>
@@ -29,7 +39,6 @@ Katarzyna Łęcka, 883 778 663, k_lecka94@vp.pl </br>
 </font>
 </font>
 </p>
-
 <b>
 Opis produktu: </b></br>
 Edytor poziomów do gry logicznej typu skasuj 3 takie same elementy. Oferuje możliwość tworzenia poziomów od podstaw, a także edycji już istniejących. Edytor będzie w formie graficznej. Możliwość zapisywania i pobierania poziomów z chmury, zarówno o dostępie publicznym i prywatnym (łatwość dzielenia się poziomami ze społecznością graczy jak i innych projektantów). Edytor sam w sobie będzie narzędziem używanym także przez projektantów poziomów z których składać się będzie zespół tworzący grę. Edytor dlatego powinien być dostępny trochę wcześniej niż sama gra. </br>
@@ -43,15 +52,16 @@ Demo:</b> </br>
 Demo będzie zawierało 2 poziomy i bardzo ograniczone drzewko rozwoju, tak by gracz tylko mógł zobaczyć co go czeka i nieco wypróbować te mechanizmy. Ma to na celu wzbudzenie ciekawości jak i niedosytu w graczu. Wraz z demem zrobione będą zrzuty ekranu poziomów, które dostępne będą w pełnej wersji gry, a także prezentujące niektóre umiejętności, które będzie można odblokowywać. </br>
 
 <b>
- Informacje wewnątrzprojektowe:</b></br>
+ Informacje wewnątrzprojektowe: </b></br>
 <ul>
-<b>Interesariusze:</b>
-<li>Klient (firma) - Otrzymanie satysfakcjonującego produktu w terminie</br>
-<li>Prowadzący przedmiot - Wywiązanie się z postawionych wcześniej zadań</br>
-<li>Społeczność graczy - Możliwość bezproblemowego importowania plików</br>
-<li>Platforma Steam - Wysoka sprzedajność gry</br>
-<li>Manager grupy projektującej grę (a nie edytor) </br>
-<li>Programiści tworzący grę - Uzyskanie określonego wynagrodzenia</br>
+<b> Interesariusze: </b>
+<li> Klient (firma) - Otrzymanie satysfakcjonującego produktu w terminie</br>
+<li> Prowadzący przedmiot - Wywiązanie się z postawionych wcześniej zadań</br>
+<li> Społeczność graczy - Możliwość bezproblemowego importowania plików</br>
+<li> Platforma Steam - Wysoka sprzedajność gry</br>
+<li> Manager grupy projektującej grę (a nie edytor) – Otrzymanie produktu przed terminem premiery w celu ponownego testowania go w swoim zakresie</br>
+<li> Pracownicy (zespół) - Uzyskanie określonego wynagrodzenia</br>
+<li> Programiści tworzący grę - Uzyskanie określonego wynagrodzenia</br>
 </ul>
 <b>
 Kolejne iteracje</b></br>
@@ -81,8 +91,12 @@ USER STORIES dla edytora:</b></br>
 <li>Jako projektant chcę, by do ładowania istniejących motywów nie były potrzebne żadne pliki graficzne. </br>
 <li>Jako projektant chcę móc importować własny wygląd kryształków z plików graficznych tworzonych w 3D i wybierać je w moim poziomie. </br>
 <li>Jako projektant chcę, by program przechowywał moje wcześniej załadowane motywy oraz krzyształy. </br>
+<li>Jako projektant map chce mieć możliwość obrotu kamerą (obrót, przesunięcie, przybliżenie, oddalenie).</br>
 
 </ul>
+
+
+
 <b>Architektura:</b>
 
 
@@ -91,8 +105,7 @@ USER STORIES dla edytora:</b></br>
 <li>Gra wydana na Windows, ponieważ jest to najszerzej dostępna dla nas grupa docelowa: większość graczy używa Windows. W przyszłości niewykluczony port na Linux. </br>
 <li>Silnik gry tworzony w OpenGL w C++, ponieważ grupa ma w tym środowisku największe doświadczenie, a także cechuje się on szybkością działania (a przenośność nie jest aż tak kluczowym aspektem w 1 fazie projektu) </br>
 <li>Edytor tworzony w wxWidgets w C++, ponieważ jest to niezawodna i łatwa w użyciu biblioteka, a także wieloplatformowa. </br>
-</ul>
-
+</ul
 <b>Kamienie milowe:</b></br>
 <li>Kamień milowy nr 1: </br>
 Stworzenie USE CASES -  Analiza poszczególnych etapów tworzenia oprogramowania. Na jej podstawie opracowane zostały Use Cases. </br>
@@ -126,4 +139,3 @@ Zebranie kompletnej dokumentacji</br>
 
 
 <b> Instrukcja uruchomienia programu </b> </br>
-
