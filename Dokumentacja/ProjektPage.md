@@ -83,4 +83,46 @@ USER STORIES dla edytora:</b></br>
 <li>Jako projektant chcę, by program przechowywał moje wcześniej załadowane motywy oraz krzyształy. </br>
 
 </ul>
+<b>Architektura:</b>
+
+
+<b>Rozwiązania architektoniczne:</b></br>
+<ul>
+<li>Gra wydana na Windows, ponieważ jest to najszerzej dostępna dla nas grupa docelowa: większość graczy używa Windows. W przyszłości niewykluczony port na Linux. </br>
+<li>Silnik gry tworzony w OpenGL w C++, ponieważ grupa ma w tym środowisku największe doświadczenie, a także cechuje się on szybkością działania (a przenośność nie jest aż tak kluczowym aspektem w 1 fazie projektu) </br>
+<li>Edytor tworzony w wxWidgets w C++, ponieważ jest to niezawodna i łatwa w użyciu biblioteka, a także wieloplatformowa. </br>
+</ul
+<b>Kamienie milowe:</b></br>
+<li>Kamień milowy nr 1: </br>
+Stworzenie USE CASES -  Analiza poszczególnych etapów tworzenia oprogramowania. Na jej podstawie opracowane zostały Use Cases. </br>
+<li>Kamień milowy nr 2: </br>
+Stworzenie projektu GUI – Zaprojektowanie interfejsu graficznego edytora w oparciu o ustalone wcześniej koncepcje i zapotrzebowania</br>
+<li>Kamień milowy nr 3: </br>
+Implementacja klas najniższego poziomu – Zaprojektowanie klas obliczających. </br>
+<li>Kamień milowy nr 4: </br>
+Implementacja klas wizualizacyjnych -		 </br>
+<li>Kamień milowy nr 5: </br>
+Scalenie klas z GUI – połączenie zaimplementowanych klas z interfejsem graficznym. </br>
+<li>Kamień milowy nr 6: </br>
+Stworzenie klas interfejsów do obsługi plików - 		</br>
+<li>Kamień milowy nr 7: </br>
+Scalenie klas przedstawiających interfejs z GUI - 		</br>
+<li>Kamień milowy nr 8: </br>
+(Nie realizowany w wersji demo) </br>
+Nawiązanie połączenia z chmurą poprzez transfer obustronny</br>
+<li>Kamień milowy nr 9: </br>
+Implementacja do GUI</br>
+<li>Kamień milowy nr 10: </br>
+Zebranie kompletnej dokumentacji</br>
+
+<b>Opis ryzyka</b></br>
+
+
+
+
+<b> Plan realizacji </b></br>
+
+
+
+<b> Instrukcja uruchomienia programu </b> </br>
 
