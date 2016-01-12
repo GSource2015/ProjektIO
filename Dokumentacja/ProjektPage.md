@@ -6,17 +6,18 @@
 </p>
 </font>
 </font>
-Spis treści
+Spis treści</br>
 Opis produktu	1
-Plan marketingowy	2
-Demo	2
-Informacje wewnątrzprojektowe	2
-Kolejne iteracje	2
-USER STORIES dla edytora	3
+</br>Plan marketingowy	2
+</br>Demo	2
+</br>Informacje wewnątrzprojektowe	2
+</br>Kolejne iteracje	2
+</br>USER STORIES dla edytora	3
 
 
 
 <hr>
+
 
 <font color="silver">
 <font size = 11>
