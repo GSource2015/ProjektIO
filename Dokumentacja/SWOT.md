@@ -8,13 +8,13 @@
     <tr>
         <td>Czynniki związane z przedsiębiorstwem</td>
         <td>
-        - wiedza jak sprostać zadaniu
+        - wiedza jak sprostać zadaniu<br/>
         
         
-- konkurencyjna cena
+- konkurencyjna cena<br/>
  
 
-- elastyczność firmy
+- elastyczność firmy<br/>
  
 
 - jakość produktu (proporcjonalnie do potrzeb klienta)
