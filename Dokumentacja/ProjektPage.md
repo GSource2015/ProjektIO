@@ -26,8 +26,16 @@ Ponadto będzie trzeba nakręcić parę filmów prezentujących samą rozgrywkę
 <b>B. Informacje wewnątrzprojektowe:</b>
 <ul>
 
-<b>Interesariusze:</b>
-
+<table>
+<tr> <b>Interesariusze:</b> </tr>
+<tr> <b>Oczekiwania:</b> </tr>
+	
+Pracownicy (zespół)	Uzyskanie określonego wynagrodzenia
+Klient (firma)	Otrzymanie satysfakcjonującego produktu w terminie
+Gracze	Możliwość bezproblemowego importowania plików
+Prowadzący przedmiot	Wywiązanie się z postawionych wcześniej zadań
+Platforma Steam	Wysoka sprzedajność gry
+</table>
 
 <li>Społeczność graczy
 
