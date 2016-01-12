@@ -49,7 +49,7 @@ Ponadto będzie trzeba nakręcić parę filmów prezentujących samą rozgrywkę
 
 <li>Dyrektor firmy
 </ul>
-<h2>Kolejne iteracje</h2>
+<b>Kolejne iteracje</b>
 1. Opracowanie głównego planu projektu
 
 
