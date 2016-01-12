@@ -7,11 +7,13 @@
     </tr>
     <tr>
         <td>Czynniki związane z przedsiębiorstwem</td>
-        <td>- wiedza jak sprostać zadaniu
+        <td>
+        - wiedza jak sprostać zadaniu
         
         
 - konkurencyjna cena
  
+
 - elastyczność firmy
  
 
@@ -21,6 +23,8 @@
 - efektywny podział obowiązków kadry
 </td>
         <td>- brak reputacji
+
+
 - możliwy brak następnych zleceń
 
 
