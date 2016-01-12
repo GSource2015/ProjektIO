@@ -1,8 +1,8 @@
 <font color="blue">
 <font size = 26>
 <p align="center">
-<h3><b>EDYTOR DO GRY</b></br>
-<b>TWISTED MIND</b></h3></br>
+<h5><b>EDYTOR DO GRY</b></br>
+<b>TWISTED MIND</b></h5></br>
 </p>
 </font>
 </font>
@@ -43,7 +43,7 @@ Demo będzie zawierało 2 poziomy i bardzo ograniczone drzewko rozwoju, tak by g
 <li>Manager grupy projektującej grę (a nie edytor) </br>
 <li>Programiści tworzący grę - Uzyskanie określonego wynagrodzenia</br>
 </ul>
-	<b>
+<b>
 5.	Kolejne iteracje</b></br>
 <ul>
 1.	Opracowanie głównego planu projektu</br>
@@ -51,7 +51,7 @@ Demo będzie zawierało 2 poziomy i bardzo ograniczone drzewko rozwoju, tak by g
 
 </ul>
 <b>
-6.	USER STORIES dla edytora:</b><br/>
+6.	USER STORIES dla edytora:</b></br>
 <ul>
 <li>Jako projektant map chcę mieć możliwość wczytywania już stworzonych map, by je później przerabiać lub zmieniać. </br>
 <li>Jako projektant map chcę mieć wizualizację w trybie rzeczywistym tworzonej mapy, by lepiej widzieć co robię. </br>
