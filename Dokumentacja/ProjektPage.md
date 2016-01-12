@@ -27,8 +27,6 @@ Spis treści</br>
 
 
 
-
-
 <hr>
 
 <font color="silver">
@@ -39,6 +37,8 @@ Katarzyna Łęcka, 883 778 663, k_lecka94@vp.pl </br>
 </font>
 </font>
 </p>
+<hr>
+
 <b>
 Opis produktu: </b></br>
 Edytor poziomów do gry logicznej typu skasuj 3 takie same elementy. Oferuje możliwość tworzenia poziomów od podstaw, a także edycji już istniejących. Edytor będzie w formie graficznej. Możliwość zapisywania i pobierania poziomów z chmury, zarówno o dostępie publicznym i prywatnym (łatwość dzielenia się poziomami ze społecznością graczy jak i innych projektantów). Edytor sam w sobie będzie narzędziem używanym także przez projektantów poziomów z których składać się będzie zespół tworzący grę. Edytor dlatego powinien być dostępny trochę wcześniej niż sama gra. </br>
@@ -105,7 +105,7 @@ USER STORIES dla edytora:</b></br>
 <li>Gra wydana na Windows, ponieważ jest to najszerzej dostępna dla nas grupa docelowa: większość graczy używa Windows. W przyszłości niewykluczony port na Linux. </br>
 <li>Silnik gry tworzony w OpenGL w C++, ponieważ grupa ma w tym środowisku największe doświadczenie, a także cechuje się on szybkością działania (a przenośność nie jest aż tak kluczowym aspektem w 1 fazie projektu) </br>
 <li>Edytor tworzony w wxWidgets w C++, ponieważ jest to niezawodna i łatwa w użyciu biblioteka, a także wieloplatformowa. </br>
-</ul
+</ul>
 <b>Kamienie milowe:</b></br>
 <li>Kamień milowy nr 1: </br>
 Stworzenie USE CASES -  Analiza poszczególnych etapów tworzenia oprogramowania. Na jej podstawie opracowane zostały Use Cases. </br>
