@@ -132,12 +132,15 @@ Zebranie kompletnej dokumentacji</br>
 <b>Opis ryzyka</b></br>
 
 	<li> Ryzyko nieukończenia pracy nad projektem na czas:</br>
-Jest to ryzyko ze średnim prawdopodobieństwem wystąpienia jednak jego wpływ na pracę jest wysoki. </br>
-Strategia przyjęta w wypadku napotkania ryzyka:  łagodzenie ryzyka poprzez minimalizację do minimum jego skutków. Jednak w skrajnym wypadku jesteśmy w stanie przejść do ostatecznej formy reagowania na ryzyko, czyli jego akceptację. </br>
-<li> Ryzyko utracenia danych ze względna to, że praca nad projektem odbywa się na małej liczbie sprzętu, jednak wystarczy aby jeden z nich uległ awarii. </br>
-Ryzyko ze średnim prawdopodobieństwem wystąpienia, ale jego wpływ na projekt jest bardzo wysoki. </br>
-Strategia przyjęta w wypadku napotkania ryzyka: ze względu na to, że taka ewentualność brana jest pod uwagę i traktowana bardzo poważnie, każdy element powstały podczas pracy nad projektem kopiowany jest na pamięć przenośną, przez co ryzyko utraty danych niwelowane jest do zera. </br>
-<li>
+		Jest to ryzyko ze średnim prawdopodobieństwem wystąpienia jednak jego wpływ na pracę jest wysoki. </br>
+		Strategia przyjęta w wypadku napotkania ryzyka:  łagodzenie ryzyka poprzez minimalizację do minimum jego skutków. 			Jednak w skrajnym wypadku jesteśmy w stanie przejść do ostatecznej formy reagowania na ryzyko, czyli jego 				akceptację. </br>
+	<li> Ryzyko utracenia danych ze względna to, że praca nad projektem odbywa się na małej liczbie sprzętu, jednak wystarczy aby 		jeden z nich uległ awarii. </br>
+		Ryzyko ze średnim prawdopodobieństwem wystąpienia, ale jego wpływ na projekt jest bardzo wysoki. </br>
+		Strategia przyjęta w wypadku napotkania ryzyka: ze względu na to, że taka ewentualność brana jest pod uwagę i 				traktowana bardzo poważnie, każdy element powstały podczas pracy nad projektem kopiowany jest na pamięć przenośną, 			przez co ryzyko utraty danych niwelowane jest do zera. </br>
+	<li>Ryzyko
+		Strategia przyjęta w wypadku napotkania ryzyka:
+	
+	</br>
 
 
 
