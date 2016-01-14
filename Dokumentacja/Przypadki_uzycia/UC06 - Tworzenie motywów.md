@@ -1,38 +1,103 @@
-Nazwa
-Tworzenie motywów
-Identyfikator
-UC06
-Opis
-Tworzenie motywów dotyczących tła i wyglądu planszy.
-Aktorzy
-Projektant Poziomów
-Cel
-Modyfikacja motywów zdefiniowanych przez użytkownika
-Cele użytkowników
-1.	Projektant poziomów: Możliwość realizacji projektów przy tworzeniu mapy
-2.	Projektant poziomów: Swoboda w tworzeniu mapy 
-Warunki początkowe
-Uruchomienie edytora
- Warunki końcowe
-Zapisanie poziomu
-Założenia
--
-Wyzwalacz
-Wybranie akcji Stwórz nowy motyw, w dowolnym momencie podczas przypadku użycia Tworzenie mapy.
-Podstawowy przebieg
-1.	Wybranie głównego motywu (lokację planszy).
-2.	Ustalenie tekstury podłoża i ścianek wczytując je z pliku graficznego.
-3.	Zapis motywu
+<b>Nazwa</b> 
 
-Przebieg alternatywny
-1a.	Wczytanie gotowego motywu do edycji
-1a1.	Wybranie akcji wczytaj motyw
-1a2.	Wybranie pliku z motywem w eksploratorze
-Przebieg alternatywny
-3a.	Użytkownik wycofuje się z akcji.
-3a1.	Wybranie akcji anuluj.
-Rozszerzane przypadki użycia:
+<ul>
+Tworzenie motywów
+</ul>
+
+<b>Identyfikator</b>
+
+<ul>
+UC06
+</ul>
+
+<b>Opis</b>
+
+<ul>
+Tworzenie motywów dotyczących tła i wyglądu planszy.
+</ul>
+
+<b>Aktorzy</b>
+
+<ul>
+Projektant Poziomów
+</ul>
+
+<b>Cel</b>
+
+<ul>
+Modyfikacja motywów zdefiniowanych przez użytkownika
+</ul>
+
+<b>Cele użytkowników</b>
+<ul>
+1.	Projektant poziomów: Możliwość realizacji projektów przy tworzeniu mapy</br>
+2.	Projektant poziomów: Swoboda w tworzeniu mapy </br>
+</ul>
+
+<b>Warunki początkowe</b>
+
+<ul>
+Uruchomienie programu.
+</ul>
+
+<b>Warunki końcowe</b>
+
+<ul>
+Zapisanie poziomu
+</ul>
+
+<b>Założenia</b>
+
+<ul>
 -
+</ul>
+
+
+
+<b>Wyzwalacz</b>
+
+<ul>
+Wybranie akcji Stwórz nowy motyw, w dowolnym momencie podczas przypadku użycia Tworzenie mapy.
+</ul>
+
+<b>Podstawowy przebieg</b> 
+<ul>
+
+1.	Wybranie głównego motywu (lokację planszy).</br>
+2.	Ustalenie tekstury podłoża i ścianek wczytując je z pliku graficznego.</br>
+3.	Zapis motywu</br>
+</ul>
+
+<b>Przebieg alternatywny</b>
+<ul>
+1a.	Wczytanie gotowego motywu do edycji</br>
+<ul>
+1a1.	Wybranie akcji wczytaj motyw</br>
+1a2.	Wybranie pliku z motywem w eksploratorze</br>
+</ul>
+</ul>
+<b>Przebieg alternatywny</b><br>
+<ul>
+
+2a. Projektant poziomów próbuje zapisać mapę niekompletną jako kompletną<br>
+<ul>
+
+2a1. Sprawdzane jest, czy mapa ma odpowiednią wielkość<br>
+
+
+2a2. Sprawdzana jest możliwość przejścia mapy.<br>
+</ul>
+</ul>
+<b>Przebieg alternatywny</b><br>
+<ul>
+
+3a.	Użytkownik wycofuje się z akcji.</br>
+
+<ul>
+3a1.	Wybranie akcji anuluj.</br>
+</ul>
+</ul>
+
 
 
 
