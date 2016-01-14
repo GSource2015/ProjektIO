@@ -1,29 +1,78 @@
-Nazwa
+<b>Nazwa</b> 
+
+<ul>
 Wybieranie figur.
-Identyfikator
+
+</ul>
+
+<b>Identyfikator</b>
+
+<ul>
 UC07
-Opis
+</ul>
+
+<b>Opis</b>
+
+<ul>
 Wybieranie figur z dostępnych modeli 3D utworzonych w innym programie.
-Aktorzy
+</ul>
+
+<b>Aktorzy</b>
+
+<ul>
 Projektant Poziomów
-Cel
-	Możliwość spersonalizowania mapy przez rozszerzenie interakcji z tworzeniem mapy.
-Cele użytkowników
+</ul>
+
+<b>Cel</b>
+
+<ul>
+Możliwość spersonalizowania mapy przez rozszerzenie interakcji z tworzeniem mapy.
+</ul>
+
+<b>Cele użytkowników</b>
+<ul>
 1.	Projektant poziomów: Możliwość dodania do planszy własnych figur do mapy
-Warunki początkowe
+</ul>
+
+<b>Warunki początkowe</b>
+
+<ul>
 Praca nad poziomem
- Warunki końcowe
+</ul>
+
+<b>Warunki końcowe</b>
+
+<ul>
 Dodanie figury do programu
-Założenia
+</ul>
+
+<b>Założenia</b>
+
+<ul>
 Użytkownik posiada plik z obiektem 3D utworzonym w innym programie
-Wyzwalacz
+</ul>
+
+
+
+<b>Wyzwalacz</b>
+
+<ul>
 Wybranie opcji Dodaj nowy kształt
-Podstawowy przebieg
-1.	Wczytanie figury z pliku
-2.	Zastąpienie nią istniejącej reprezentacji innej figury
-3.	Zapisanie zmian
-Przebieg alternatywny
+</ul>
+
+<b>Podstawowy przebieg</b> 
+<ul>
+
+1.	Wczytanie figury z pliku</br>
+2.	Zastąpienie nią istniejącej reprezentacji innej figury</br>
+3.	Zapisanie zmian</br>
+</ul>
+
+<b>Przebieg alternatywny</b>
+<ul>
 3a.	Użytkownik wycofuje się z akcji.
-3a1.	Wybranie akcji anuluj.
-Rozszerzane przypadki użycia:
--
+
+<ul>
+3a1.	Wybranie akcji anuluj.</br>
+</ul>
+</ul>
