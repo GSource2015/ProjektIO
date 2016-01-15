@@ -57,7 +57,7 @@ Projektant poziomów: Edycja istniejacej mapy</br>
 <b>Przebieg alternatywny</b>
 <ul>
 1a. Użytkownik chce edytować już istniejaca mape 
-<lu>
+<ul>
 1a1. Jesli mapa ma byc wczystana z dysku, uruchamiany jest <i> UC01</i></br>
 1a2. Jesli mapa ma byc wczystana z chmury, uruchamiany jest <i> UC02</i></br>
 </ul>
