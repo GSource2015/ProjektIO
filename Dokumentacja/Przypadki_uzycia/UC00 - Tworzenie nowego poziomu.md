@@ -8,7 +8,7 @@
 
 <b>Opis</b>
 
-<ul> </ul>
+<ul>Uruchomienie edytora w celu stworzenia poziomu gry. </ul>
 
 <b>Aktorzy</b>
 
