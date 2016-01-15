@@ -60,6 +60,7 @@ Projektant poziomów: Edycja istniejacej mapy</br>
 <ul>
 1a1. Jesli mapa ma byc wczystana z chmury, uruchamiany jest <i> UC01</i></br>
 1a2. Jesli mapa ma byc wczystana z dysku, uruchamiany jest <i> UC02</i></br>
+1a3. Uruchamiany jest <i>UC05 - Edycja poziomu </i></br>
 </ul>
 </ul>
 <b>Przebieg alternatywny</b>
