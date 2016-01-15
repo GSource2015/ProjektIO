@@ -5,7 +5,7 @@
 1. akceptacja</br>
 2. lagodzenie</br>
 3. przenoszenie na inny podmiot</br>
-</u>
+</ul>
 3. Biorac pod uwage fakt, że glównym realnym ryzykiem jest niedotrzymanie terminu, nasza strategia jest lagodzenie jego skutków oraz czesciowa akceptacja:
 <ul>
 - ewentualne braki w projekcie zostana uwzglednione w dokumentacji</br>
