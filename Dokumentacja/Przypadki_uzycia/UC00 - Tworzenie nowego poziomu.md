@@ -21,6 +21,8 @@
 
 <b>Cele użytkowników</b>
 <ul>
+Projektant poziomów: Tworzenie nowej mapy</br>
+Projektant poziomów: Edycja istniejacej mapy</br>
 
 </ul>
 <b>Warunki początkowe</b>
@@ -33,7 +35,7 @@
 
 <b>Założenia</b>
 
-<ul> </ul>
+<ul> Dostep do programu <i>Edytor poziomów</i></ul>
 
 
 <b>Wyzwalacz</b>
@@ -47,9 +49,9 @@
 3. Wybranie opcji <i>Nowy</i></br>
 4. Wybranie odpowiedniego koloru tla, sciany i podlóg.</br>
 5. Wybranie odpowiednich ksztatów figór</br>
-6. Edycja mapy za pomoca przycisków myszy:</br>
+6. Edycja mapy za pomoca przycisków myszy:</br><ul>
     - lewy przycisk odpowiada za dodawanie elementów</br>
-    - prawy przycisk odpowiada za ich kasowanie</br>
+    - prawy przycisk odpowiada za ich kasowanie</br></ul>
 7. Wybranie opcji zapisz mape</br>
 </ul>
 <b>Przebieg alternatywny</b>
@@ -72,7 +74,7 @@
 <ul>
 3a. Użytkownik nie zdecydowal sie jednak na utworzenie nowej mapy
 <ul>
-3a1. Komunikat zawierajacy opcje tworzenia poziomu posiada również przycisk <i> Anuluj<\i>, który użytkownik powinien wybrać
+3a1. Komunikat zawierajacy opcje tworzenia poziomu posiada również przycisk <i> Anuluj</i>, który użytkownik powinien wybrać
 </ul>
 </ul>
 <b>Przebieg alternatywny</b>
