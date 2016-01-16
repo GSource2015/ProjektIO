@@ -7,7 +7,7 @@ Michał Krawczyk</br>
 Katarzyna Łęcka</br>
 
 16.01.2016r</br>
- <b> Streszczenie dokumentu</b></br>
+ <b> Zalożenia</b></br>
 Projektem ma na celu stworzenie edytor poziomów do gry logicznej typu skasuj 5 takich samych elementów. Koncepcja produktu polega na umożliwieniu graczowi samodzielnego edytowania lub tworzenia od podstaw poziomów do gry, w którą będzie miał możliwość później zagrać. </br>
 Kosztorys przedsięwzięcia zawarty jest w pliku <i > Biznes model</i></br>
 Wstępnie czas pracy trwający nad projektem zakładał okres pięciu miesięcy, jednak biorąc pod uwagę dwuosobowy skład drużyny pracującej nad zadaniem, praca nad finalną wersja edytora może dobiec końca w późniejszym terminie.</br>
