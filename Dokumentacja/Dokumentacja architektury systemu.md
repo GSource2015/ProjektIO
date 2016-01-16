@@ -18,15 +18,11 @@ Katarzyna Łęcka</br>
 3	Model architektury	3</br>
 4	Realizacja przypadków użycia	3</br>
 4.0 UC00 - Tworzenie nowego poziomu</br>
-Po uruchomieniu programu startuje okno z klasy MainWindow. Na poczatku mapa jest ustawiana jako pusta. Jesli mapa jest pusta, to nic sie nie rysuje w glownym oknie. Dopiero jak użytkownik wybierze w menu Plik->Nowy, to uruchamia sie okno dialogowe z klasy NewFile, które przyjmuje parametry nowego okna i pozwala wybrać motyw startowy. Po nacisnieciu potwierdzenia, parametry z okna sa ladowane do klasy Level, a obecny motyw, zaleznie od wyboru, jesli kopiowany z tablicy motywu glownego, albo ze zdefiniowanego przez uzytkownika. Klasa Level organizuje klasy Theme i Board, ktore sa odpowiedzialne za kolejno: ustawienia motywu i planszy. Podczas edycji można edytować motyw, jednak bez edycji ksztaltow (w demo nie dostepne). Mapa jest rysowana przy pomocy interfejsu MapImage, ktory jest odpowiedzialny za transformacje wspolrzednych rzeczywistych do obrazowych, i na odwrot, przy zastosowaniu odpowiednich przeskalowan i macierzy przeksztalcen. Jest swego rodzaju interfejsem, miedzy klasa CustomPanelEditor, na ktorej jest rysowana reprezentacja obrazu w 2D, a Level, ktory posiada sam obiekt. Po zmianie jakichkolwiek parametrow obrazu, nalezy wywolac metode klasy MapImage o nazwie adjustParameters(Lelvel&), a po zmienie wielkosci panelu, funkcje calculateRatio(). Wspolrzedne obrazu sa transformowane na wspolrzedne rzeczywiste za pomoca przeksztalcen odwrotnych i pozwalaja na wybor odpowiedniego kwadratu mapy i jego zmiane (za wykrycie akcji odpowiedzialne sa odpowiednie handlery w klasie CustomPanelEditor). Mape zapisujemy, wybierajac z paska menu opcje Plik->Zapisz i plik można wtedy zapisać w pliku o formacie *.tmm (UC03). W demo podczas zapisu nie jest sprawdzana mozliwosc przejscia mapy.
 4.1	UC01 – Wczytywanie do edycji istniejącej mapy z chmury	3</br>
 4.2	UC02 – Wczytywanie do edycji istniejącej mapy z dysku	3</br>
 4.3	UC03 – Zapisanie mapy na dysku	3</br>
-Do zapisu i odczytu sluza klasy FileTMWriter i FileTMReader, dziedziczace po klasie FileTM. Przypadek nie jest kompletny, na razie obsluguje zwykly zapis do pliku, a opcje zapisz i zapisz jako dzialaja tak samo. Wszystkie zapisane mape sa traktowane jako kompletne.
-Mapa na poczatku, posiada 2 bajtowy header, ktory identyfikuje ja jako mape (w przyszlosci mozna bedzie zmienic header dla mapy niekompletnej). Jesli motyw jest domyslny, to nie jest zapisywany do pliku, by oszczedzac miejsce. Swiadczy o tym pewna flaga w pliku, ktora informuje czy motyw jest domyslny, czy nie, a jesli nie to jaki jest jej motyw glowny.
 4.4	UC04 – Zapisanie mapy w chmurze	3</br>
 4.5	UC05 - Edycja istniejacego poziomu	3</br>
-Realizacja podobna jak UC00, tylko na poczatku wczytujemy wczesniej zapisany poziom. Najpierw klasa FileTMReader odczytuje naglowek pliku i sprawdza czy jest on zgodny z tym, jaki powinien byc. Potem wczytuje go do pliku tymczasowego Level, ktory jest kopiowany do tego, na ktorym bedziemy pracowac.
 5	Wskazówki do implementacji</br>
 5.1	Wykorzystywane biblioteki i gotowe komponenty	4</br>
 6	Model danych	4</br>
@@ -63,6 +59,9 @@ Chmura, do której będą ładowane pliki, ma ograniczoną pamięć, dlatego pli
 <b>
 4	Realizacja przypadków użycia</br></b>
 <ul>
+4.1 UC00 - Tworzenie nowego poziomu</br> 
+Po uruchomieniu programu startuje okno z klasy MainWindow. Na poczatku mapa jest ustawiana jako pusta. Jesli mapa jest pusta, to nic sie nie rysuje w glownym oknie. Dopiero jak użytkownik wybierze w menu Plik->Nowy, to uruchamia sie okno dialogowe z klasy NewFile, które przyjmuje parametry nowego okna i pozwala wybrać motyw startowy. Po nacisnieciu potwierdzenia, parametry z okna sa ladowane do klasy Level, a obecny motyw, zaleznie od wyboru, jesli kopiowany z tablicy motywu glownego, albo ze zdefiniowanego przez uzytkownika. Klasa Level organizuje klasy Theme i Board, ktore sa odpowiedzialne za kolejno: ustawienia motywu i planszy. Podczas edycji można edytować motyw, jednak bez edycji ksztaltow (w demo nie dostepne). Mapa jest rysowana przy pomocy interfejsu MapImage, ktory jest odpowiedzialny za transformacje wspolrzednych rzeczywistych do obrazowych, i na odwrot, przy zastosowaniu odpowiednich przeskalowan i macierzy przeksztalcen. Jest swego rodzaju interfejsem, miedzy klasa CustomPanelEditor, na ktorej jest rysowana reprezentacja obrazu w 2D, a Level, ktory posiada sam obiekt. Po zmianie jakichkolwiek parametrow obrazu, nalezy wywolac metode klasy MapImage o nazwie adjustParameters(Lelvel&), a po zmienie wielkosci panelu, funkcje calculateRatio(). Wspolrzedne obrazu sa transformowane na wspolrzedne rzeczywiste za pomoca przeksztalcen odwrotnych i pozwalaja na wybor odpowiedniego kwadratu mapy i jego zmiane (za wykrycie akcji odpowiedzialne sa odpowiednie handlery w klasie CustomPanelEditor). Mape zapisujemy, wybierajac z paska menu opcje Plik->Zapisz i plik można wtedy zapisać w pliku o formacie *.tmm (UC03). W demo podczas zapisu nie jest sprawdzana mozliwosc przejscia mapy.
+
 4.1	UC01 – Wczytywanie do edycji istniejącej mapy z chmury
 <ul>
 W demo ta funkcja nie występuje.
@@ -73,7 +72,8 @@ Mapa jest zapisywana w konkretnym formacie, przedstawionym w punkcie ___ . wczyt
 </ul>
 4.3	UC03 – Zapisanie mapy na dysku
 <ul>
-Podobnie jak wyżej mapę zapisujemy w konkretnym formacie podanym w punkcie ___. Korzystamy z elementów obiektów klasy Board i Theme. Jeśli motyw jest domyślny, to nie zapisujemy jego danych.
+Do zapisu i odczytu sluza klasy FileTMWriter i FileTMReader, dziedziczace po klasie FileTM. Przypadek nie jest kompletny, na razie obsluguje zwykly zapis do pliku, a opcje zapisz i zapisz jako dzialaja tak samo. Wszystkie zapisane mape sa traktowane jako kompletne.
+Mapa na poczatku, posiada 2 bajtowy header, ktory identyfikuje ja jako mape (w przyszlosci mozna bedzie zmienic header dla mapy niekompletnej). Jesli motyw jest domyslny, to nie jest zapisywany do pliku, by oszczedzac miejsce. Swiadczy o tym pewna flaga w pliku, ktora informuje czy motyw jest domyslny, czy nie, a jesli nie to jaki jest jej motyw glowny.
 </ul>
 4.4	UC04 – Zapisanie mapy w chmurze
 <ul>
@@ -81,7 +81,7 @@ W demo ta funkcja nie występuje.
 </ul>
 4.5	UC05 - Edycja poziomu
 <ul>
-Poziom jest reprezentowany w postaci tablicy dwuwymiarowej. Liczba -1 reprezentuje dany kwadrat, który nie istnieje, a liczby większe od 0 ilość, ile razy trzeba skasować dany kwadrat (skasowanie wszystkich co najmniej tyle razy powoduje przejście poziomu).
+Realizacja podobna jak UC00, tylko na poczatku wczytujemy wczesniej zapisany poziom. Najpierw klasa FileTMReader odczytuje naglowek pliku i sprawdza czy jest on zgodny z tym, jaki powinien byc. Potem wczytuje go do pliku tymczasowego Level, ktory jest kopiowany do tego, na ktorym bedziemy pracowac.
 </ul>
 
 4.5	UC06 - Tworzenie motywu
