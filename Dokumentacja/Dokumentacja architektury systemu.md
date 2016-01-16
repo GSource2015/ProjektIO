@@ -11,18 +11,18 @@ Katarzyna Łęcka</br>
 [Wpisz tutaj streszczenie dokumentu. Streszczenie jest zazwyczaj krótkim podsumowaniem treści dokumentu. Wpisz tutaj streszczenie dokumentu. Streszczenie jest zazwyczaj krótkim podsumowaniem treści dokumentu.]
 </br>
 </br>
-1	Wprowadzenie	3</br>
+1	Wprowadzenie	3</br><ul>
 1.1	Zakres architektury systemu	3</br>
-1.2	Cele i ograniczenia architektury	3</br>
+1.2	Cele i ograniczenia architektury	3</br></ul>
 2	Model środowiska docelowego	3</br>
 3	Model architektury	3</br>
-4	Realizacja przypadków użycia	3</br>
+4	Realizacja przypadków użycia	3</br><ul>
 4.0 UC00 - Tworzenie nowego poziomu</br>
 4.1	UC01 – Wczytywanie do edycji istniejącej mapy z chmury	3</br>
 4.2	UC02 – Wczytywanie do edycji istniejącej mapy z dysku	3</br>
 4.3	UC03 – Zapisanie mapy na dysku	3</br>
 4.4	UC04 – Zapisanie mapy w chmurze	3</br>
-4.5	UC05 - Edycja istniejacego poziomu	3</br>
+4.5	UC05 - Edycja istniejacego poziomu	3</br></ul>
 5	Wskazówki do implementacji</br>
 5.1	Wykorzystywane biblioteki i gotowe komponenty	4</br>
 6	Model danych	4</br>
@@ -30,7 +30,7 @@ Katarzyna Łęcka</br>
 8	Problemy i ryzyka	4</br>
 </br>
 
-<b>1	Wprowadzenie</br>
+<b>1	Wprowadzenie</br><ul>
 1.1	Zakres architektury systemu</br>
 </br>
 
@@ -38,7 +38,7 @@ Katarzyna Łęcka</br>
 Rysowanie ma przebiegać bez migotań i nie przycinać systemu.</br>
 Każde okienko, które się pojawia, powinno blokować możliwość pracy w okienku rodzica, dla zwiększenia stabilności systemu.</br>
 Chmura, do której będą ładowane pliki, ma ograniczoną pamięć, dlatego pliki z poziomami nie powinny zbyt dużo zajmować.</br>
-
+</ul>
 <b>
 2	Model środowiska docelowego</br></b>
 [Diagram wdrożenia] komputer – chmura, diagram wdrożenia (czyli czy chmura czy komp, skąd użytkownik ma to wiedzieć)</br>
