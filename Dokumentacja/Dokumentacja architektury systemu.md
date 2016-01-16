@@ -10,7 +10,7 @@ Katarzyna Łęcka</br>
 </br>
 [Wpisz tutaj streszczenie dokumentu. Streszczenie jest zazwyczaj krótkim podsumowaniem treści dokumentu. Wpisz tutaj streszczenie dokumentu. Streszczenie jest zazwyczaj krótkim podsumowaniem treści dokumentu.]
 </br>
- </br>
+</br>
 1	Wprowadzenie	3</br>
 1.1	Zakres architektury systemu	3</br>
 1.2	Cele i ograniczenia architektury	3</br>
@@ -28,23 +28,25 @@ Katarzyna Łęcka</br>
 7	Model testu	4</br>
 8	Problemy i ryzyka	4</br>
 </br>
- 
-1	Wprowadzenie</br>
+
+<b>1	Wprowadzenie</br>
 1.1	Zakres architektury systemu</br>
 </br>
 <ul>
-1.2	Cele i ograniczenia architektury</br>
+1.2	Cele i ograniczenia architektury</br></b>
 Rysowanie ma przebiegać bez migotań i nie przycinać systemu.</br>
 Każde okienko, które się pojawia, powinno blokować możliwość pracy w okienku rodzica, dla zwiększenia stabilności systemu.</br>
 Chmura, do której będą ładowane pliki, ma ograniczoną pamięć, dlatego pliki z poziomami nie powinny zbyt dużo zajmować.</br>
 </ul>
-2	Model środowiska docelowego</br>
+<b>
+2	Model środowiska docelowego</br></b>
 [Diagram wdrożenia] komputer – chmura, diagram wdrożenia (czyli czy chmura czy komp, skąd użytkownik ma to wiedzieć)</br>
 </br>
+<b>
 3	Model architektury</br>
-<ul>
+<ul></b>
 •	Interfejsy:
--____________
+-____________</br>
 •	Biblioteki zewnętrzne:
 <ul>
 - Blender – sposób dystrybucji: blender wydany jest pod GNU GPL (General Public Licence)</br>
@@ -53,7 +55,8 @@ Chmura, do której będą ładowane pliki, ma ograniczoną pamięć, dlatego pli
 - iostream – also gnu</br>
 </ul>
 </ul>
-4	Realizacja przypadków użycia</br>
+<b>
+4	Realizacja przypadków użycia</br></b>
 <ul>
 4.1	UC01 – Wczytywanie do edycji istniejącej mapy z chmury
 <ul>
@@ -75,8 +78,8 @@ W demo ta funkcja nie występuje.
 <ul>
 Poziom jest reprezentowany w postaci tablicy dwuwymiarowej. Liczba -1 reprezentuje dany kwadrat, który nie istnieje, a liczby większe od 0 ilość, ile razy trzeba skasować dany kwadrat (skasowanie wszystkich co najmniej tyle razy powoduje przejście poziomu).
 </ul>
-</ul>
-5	Wskazówki do implementacji</br>
+</ul><b>
+5	Wskazówki do implementacji</br></b>
 <ul>
 5.1	Wykorzystywane biblioteki i gotowe komponenty</br>
 <ul>
@@ -85,7 +88,8 @@ Poziom jest reprezentowany w postaci tablicy dwuwymiarowej. Liczba -1 reprezentu
 •	iostream – klasa wyjątków, strumienie wejścia/wyjścia
 </ul>
 </ul>
-6	Model danych</br>
+<b>
+6	Model danych</br></b>
 <ul>
 W pogramie będą używane 3 typy plików</br>
 <ul>
@@ -101,7 +105,8 @@ unsigned char x wysokość*szerokość - tablica, którą można załadować do 
 •	*.blend – pliki obiektów 3D tworzone przez program Blender.</br>
 </ul>
 </ul>
-7	Model testu</br>
+<b>
+7	Model testu</br></b>
 
 
 MANUALNY/AUTOMATYCZNY
@@ -111,11 +116,13 @@ Testowanie klas przy użyciu biblioteki boost.</br>
 Testy funkcji zwracających wartości graficzne testowane wizualnie.</br>
 GUI testowane systemowo.</br>
 </ul>
-8	Problemy i ryzyka
+</br>
+<b>
+8	Problemy i ryzyka</b>
 <ul>
 1.	Ryzyko czasowe:  zagrożenie zaburzeniem harmonogramu
-Zapobieganie: oddalenie od siebie kamieni milowych do granic możliwości aby w razie konieczności druga osoba w zespole miała czas na zaznajomienie się obecnym problemem
+Zapobieganie: oddalenie od siebie kamieni milowych do granic możliwości aby w razie konieczności druga osoba w zespole miała czas na zaznajomienie się obecnym problemem</br>
 2.	Ryzyko awarii sprzętu bądź oprogramowania: zagrożenie utraty danych
-Zapobieganie: po każdym etapie skończonej pracy uzyskane efekty zapisywane są na pamięci przenośnej oraz zapisywane w chmurze.
-3.	Ryzyka czynników zewnętrznych i przypadków losowych
+Zapobieganie: po każdym etapie skończonej pracy uzyskane efekty zapisywane są na pamięci przenośnej oraz zapisywane w chmurze.</br>
+3.	Ryzyka czynników zewnętrznych i przypadków losowych</br>
 </ul>
