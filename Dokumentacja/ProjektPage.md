@@ -41,7 +41,7 @@ Katarzyna Łęcka, 883 778 663, k_lecka94@vp.pl </br>
 
 <b>
 Opis produktu: </b></br>
-Edytor poziomów do gry logicznej typu skasuj 3 takie same elementy. Oferuje możliwość tworzenia poziomów od podstaw, a także edycji już istniejących. Edytor będzie w formie graficznej. Możliwość zapisywania i pobierania poziomów z chmury, zarówno o dostępie publicznym i prywatnym (łatwość dzielenia się poziomami ze społecznością graczy jak i innych projektantów). Edytor sam w sobie będzie narzędziem używanym także przez projektantów poziomów z których składać się będzie zespół tworzący grę. Edytor dlatego powinien być dostępny trochę wcześniej niż sama gra. </br>
+Edytor poziomów do gry logicznej typu skasuj 3 takie same elementy. Oferuje możliwość tworzenia poziomów od podstaw, a także edycji już istniejących. Edytor będzie w formie graficznej 2D. Możliwość zapisywania i pobierania poziomów z chmury, zarówno o dostępie publicznym i prywatnym (łatwość dzielenia się poziomami ze społecznością graczy jak i innych projektantów). Edytor sam w sobie będzie narzędziem używanym także przez projektantów poziomów z których składać się będzie zespół tworzący grę. Edytor dlatego powinien być dostępny trochę wcześniej niż sama gra. </br>
 Gra logiczna typu skasuj 3 takie same elementy. Możliwość tworzenia własnych poziomów, edytor jest dołączany do gry. Kolejnym wyróżnikiem gry jest możliwość odblokowywania ulepszeń za zdobyte punkty, które będą ułatwiały rozrywkę dla znacznie trudniejszych poziomów (drzewko rozwoju, ale nie da się wybrać wszystkiego) </br>
 <b>
 Plan marketingowy: </b></br>
@@ -49,7 +49,7 @@ Marketing dotyczy jedynie samej gry, a nie edytora. Edytor jest pewnym narzędzi
 Ponadto będzie trzeba nakręcić parę filmów prezentujących samą rozgrywkę, odpowiednio zmontowanych by nie zanudzić oglądającego (wiadomo, nie można oczekiwać nie wiadomo jakiego dynamizmu od gry logicznej), a także prezentującego nasz edytor (w tej fazie powinien być już prawie skończony, jednak nie musi być całkowicie gdyż zostanie dopiero dołączony do gry wydanej przez Early Access). </br>
 <b>
 Demo:</b> </br>
-Demo będzie zawierało 2 poziomy i bardzo ograniczone drzewko rozwoju, tak by gracz tylko mógł zobaczyć co go czeka i nieco wypróbować te mechanizmy. Ma to na celu wzbudzenie ciekawości jak i niedosytu w graczu. Wraz z demem zrobione będą zrzuty ekranu poziomów, które dostępne będą w pełnej wersji gry, a także prezentujące niektóre umiejętności, które będzie można odblokowywać. </br>
+W demo przedstawimy możliwość tworzenia i edycji mapy, wczytywania i zapisywania mapy do pliku oraz tworzenie własnych motywów. </br>
 
 <b>
  Informacje wewnątrzprojektowe: </b></br>
@@ -68,6 +68,11 @@ Kolejne iteracje</b></br>
 <ul>
 1.	Opracowanie głównego planu projektu</br>
 2.	Stworzenie Use Cases I User Stories</br>
+3. Zaprojektowanie głównego schematu programu i założeń, wynikających z samej gry
+4. Implementacja klas niskiego poziomu (nie opierających się o GUI)
+5. Implementacja GUI
+6. Scalenie GUI z resztą klas
+7. Realizacja kolejnych UseCaseow
 
 </ul>
 <b>
@@ -99,7 +104,6 @@ USER STORIES dla edytora:</b></br>
 
 <b>Model architektury:</b></br>
 •	Biblioteki zewnętrzne:<ul></br>
-- Blender – sposób dystrybucji: blender wydany jest pod GNU GPL (General Public Licence)</br>
 - wxWidgets – sposób dystrybucji : L-GPL (Library General Public Licence )</br>
 - Boost – sposób dystrybucji: the Boost Software License</br>
 - ioStream –  sposób dystrybucji: GNU </br>
@@ -110,8 +114,8 @@ USER STORIES dla edytora:</b></br>
 <b>Rozwiązania architektoniczne:</b></br>
 <ul>
 <li>Gra wydana na Windows, ponieważ jest to najszerzej dostępna dla nas grupa docelowa: większość graczy używa Windows. W przyszłości niewykluczony port na Linux. </br>
-<li>Silnik gry tworzony w OpenGL w C++, ponieważ grupa ma w tym środowisku największe doświadczenie, a także cechuje się on szybkością działania (a przenośność nie jest aż tak kluczowym aspektem w 1 fazie projektu) </br>
-<li>Edytor tworzony w wxWidgets w C++, ponieważ jest to niezawodna i łatwa w użyciu biblioteka, a także wieloplatformowa. </br>
+<li>Silnik gry tworzony w OpenGL w C++, ponieważ grupa ma w tym środowisku największe doświadczenie, a także cechuje się on szybkością działania (a przenośność gry nie jest aż tak kluczowym aspektem w 1 fazie projektu) </br>
+<li>Edytor tworzony w wxWidgets w C++, ponieważ jest to niezawodna i łatwa w użyciu biblioteka, a także wieloplatformowa. Dodatkowo naszym celem jest zapoznanie się z nią i nabranie doświadczenia. </br>
 </ul>
 <b>Kamienie milowe:</b></br>
 <li>Kamień milowy nr 1: </br>
@@ -147,3 +151,6 @@ Strategia przyjęta w wypadku napotkania ryzyka: ze względu na to, że taka ewe
 <li>Ryzyka czynników zewnętrznych i przypadków losowych	</br>
 Strategia przyjęta w wypadku napotkania ryzyka: ze wzgldu na znikome prawdopodobieństwo wystapienia tego ryzyka, nie wybieramy konkretnej scieżki radzenia sobie w wypadku jego wystapienia</br>
 
+<b>Informacje odnośnie implementacji</b>
+W demo będą UC00, UC01, UC03 i UC06, jednak możliwość wyboru tylko koloru, a nie tekstury. I w takiej kolejności powinny być implementowane (UC03 przed UC01).
+Wszystko zostało zaimplementowane tak, by nie ograniczać w przyszłości możliwości rozwoju kodu, a w miejscach, gdzie dana funkcjonalność nie jest używana, zostało zostawione miejsce (np w klasie FileTMWriter plik jest zapisywany i odczytywany wg przyjętego formatu, jednak zamiast wielkości obrazu, wpisujemy dwa razy 0). Więcej szczegółów w dokumentacji analitycznej projektu.
