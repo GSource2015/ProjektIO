@@ -48,7 +48,7 @@ Projektant poziomów: Edycja istniejacej mapy</br>
 2. Wpisanie wybranej nazwy poziomu, ustawienie szerokoci i wysokoci obrazu oraz wybranie motywu</br>
 3. Wybranie opcji <i>Nowy</i></br>
 4. Wybranie odpowiedniego koloru tla, sciany i podlóg.</br>
-5. Wybranie odpowiednich ksztatów figór</br>
+5. Wybranie odpowiednich ksztatów figur</br>
 6. Edycja mapy za pomoca przycisków myszy:</br><ul>
     - lewy przycisk odpowiada za dodawanie elementów</br>
     - prawy przycisk odpowiada za ich kasowanie</br></ul>
