@@ -23,8 +23,8 @@ Katarzyna Łęcka</br>
 4.3	UC03 – Zapisanie mapy na dysku	3</br>
 4.4	UC04 – Zapisanie mapy w chmurze	3</br>
 4.5	UC05 - Edycja istniejacego poziomu	3</br></ul>
-5	Wskazówki do implementacji</br>
-5.1	Wykorzystywane biblioteki i gotowe komponenty	4</br>
+5	Wskazówki do implementacji</br><ul>
+5.1	Wykorzystywane biblioteki i gotowe komponenty	4</br></ul>
 6	Model danych	4</br>
 7	Model testu	4</br>
 8	Problemy i ryzyka	4</br>
@@ -61,7 +61,7 @@ Chmura, do której będą ładowane pliki, ma ograniczoną pamięć, dlatego pli
 <ul>
 4.1 UC00 - Tworzenie nowego poziomu</br> 
 Po uruchomieniu programu startuje okno z klasy MainWindow. Na poczatku mapa jest ustawiana jako pusta. Jesli mapa jest pusta, to nic sie nie rysuje w glownym oknie. Dopiero jak użytkownik wybierze w menu Plik->Nowy, to uruchamia sie okno dialogowe z klasy NewFile, które przyjmuje parametry nowego okna i pozwala wybrać motyw startowy. Po nacisnieciu potwierdzenia, parametry z okna sa ladowane do klasy Level, a obecny motyw, zaleznie od wyboru, jesli kopiowany z tablicy motywu glownego, albo ze zdefiniowanego przez uzytkownika. Klasa Level organizuje klasy Theme i Board, ktore sa odpowiedzialne za kolejno: ustawienia motywu i planszy. Podczas edycji można edytować motyw, jednak bez edycji ksztaltow (w demo nie dostepne). Mapa jest rysowana przy pomocy interfejsu MapImage, ktory jest odpowiedzialny za transformacje wspolrzednych rzeczywistych do obrazowych, i na odwrot, przy zastosowaniu odpowiednich przeskalowan i macierzy przeksztalcen. Jest swego rodzaju interfejsem, miedzy klasa CustomPanelEditor, na ktorej jest rysowana reprezentacja obrazu w 2D, a Level, ktory posiada sam obiekt. Po zmianie jakichkolwiek parametrow obrazu, nalezy wywolac metode klasy MapImage o nazwie adjustParameters(Lelvel&), a po zmienie wielkosci panelu, funkcje calculateRatio(). Wspolrzedne obrazu sa transformowane na wspolrzedne rzeczywiste za pomoca przeksztalcen odwrotnych i pozwalaja na wybor odpowiedniego kwadratu mapy i jego zmiane (za wykrycie akcji odpowiedzialne sa odpowiednie handlery w klasie CustomPanelEditor). Mape zapisujemy, wybierajac z paska menu opcje Plik->Zapisz i plik można wtedy zapisać w pliku o formacie *.tmm (UC03). W demo podczas zapisu nie jest sprawdzana mozliwosc przejscia mapy.</br>
-
+</ul>
 4.1	UC01 – Wczytywanie do edycji istniejącej mapy z chmury</br>
 <ul>
 W demo ta funkcja nie występuje.
