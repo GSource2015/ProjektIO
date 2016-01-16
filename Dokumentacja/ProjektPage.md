@@ -137,13 +137,6 @@ Strategia przyjęta w wypadku napotkania ryzyka:  łagodzenie ryzyka poprzez min
 <li> Ryzyko utracenia danych ze względna to, że praca nad projektem odbywa się na małej liczbie sprzętu, jednak wystarczy aby	jeden z nich uległ awarii. </br>
 Ryzyko ze średnim prawdopodobieństwem wystąpienia, ale jego wpływ na projekt jest bardzo wysoki. </br>
 Strategia przyjęta w wypadku napotkania ryzyka: ze względu na to, że taka ewentualność brana jest pod uwagę i traktowana bardzo poważnie, każdy element powstały podczas pracy nad projektem kopiowany jest na pamięć przenośną, przez co ryzyko utraty danych niwelowane jest do zera. </br>
-<li>Ryzyko	</br>
-Strategia przyjęta w wypadku napotkania ryzyka:</br>
+<li>Ryzyka czynników zewnętrznych i przypadków losowych	</br>
+Strategia przyjęta w wypadku napotkania ryzyka: ze wzgldu na znikome prawdopodobieństwo wystapienia tego ryzyka, nie wybieramy konkretnej scieżki radzenia sobie w wypadku jego wystapienia</br>
 
-
-
-<b> Plan realizacji </b></br>
-
-
-
-<b> Instrukcja uruchomienia programu </b> </br>
