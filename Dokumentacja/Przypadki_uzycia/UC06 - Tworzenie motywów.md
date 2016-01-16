@@ -79,18 +79,6 @@ Wybranie akcji Stwórz nowy motyw, w dowolnym momencie podczas przypadku użycia
 <b>Przebieg alternatywny</b><br>
 <ul>
 
-2a. Projektant poziomów próbuje zapisać mapę niekompletną jako kompletną<br>
-<ul>
-
-2a1. Sprawdzane jest, czy mapa ma odpowiednią wielkość<br>
-
-
-2a2. Sprawdzana jest możliwość przejścia mapy.<br>
-</ul>
-</ul>
-<b>Przebieg alternatywny</b><br>
-<ul>
-
 3a.	Użytkownik wycofuje się z akcji.</br>
 
 <ul>
