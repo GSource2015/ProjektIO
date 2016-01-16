@@ -97,18 +97,13 @@ USER STORIES dla edytora:</b></br>
 
 
 
-<b>Architektura:</b></br>
+<b>Model architektury:</b></br>
 •	Biblioteki zewnętrzne:<ul></br>
 - Blender – sposób dystrybucji: blender wydany jest pod GNU GPL (General Public Licence)</br>
 - wxWidgets – sposób dystrybucji : L-GPL (Library General Public Licence )</br>
 - Boost – sposób dystrybucji: the Boost Software License</br>
 - ioStream –  sposób dystrybucji: GNU </br>
 </ul>
-
-
-
-
-
 
 
 
