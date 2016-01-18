@@ -49,7 +49,7 @@ Projektant poziomów: Edycja istniejacej mapy</br>
 3. Wybranie opcji <i>Nowy</i></br>
 4. Wybranie odpowiedniego koloru tla, sciany i podlóg.</br>
 5. Wybranie odpowiednich ksztatów figur</br>
-6. Edycja mapy za pomoca przycisków myszy odpowiedzialnych za dodawanie i kasowanie elemntów</br><ul>
+6. Edycja mapy za pomoca przycisków myszy odpowiedzialnych za dodawanie i kasowanie elemntów</br>
 7. Wybranie opcji zapisz mape</br>
 </ul>
 <b>Przebieg alternatywny</b>
