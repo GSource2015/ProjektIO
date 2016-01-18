@@ -44,14 +44,12 @@ Projektant poziomów: Edycja istniejacej mapy</br>
 
 <b>Podstawowy przebieg</b>
 <ul>
-1. Wybranie opcji <i>Plik -> Nowy </i> lub wcisniecie kombinacji klawiszy <i>Ctrl + N</i>.</br>
+1. Wybranie opcji <i>Plik -> Nowy </i> lub wcisniecie odpowiedniej kombinacji klawiszy.</br>
 2. Wpisanie wybranej nazwy poziomu, ustawienie szerokoci i wysokoci obrazu oraz wybranie motywu</br>
 3. Wybranie opcji <i>Nowy</i></br>
 4. Wybranie odpowiedniego koloru tla, sciany i podlóg.</br>
 5. Wybranie odpowiednich ksztatów figur</br>
-6. Edycja mapy za pomoca przycisków myszy:</br><ul>
-    - lewy przycisk odpowiada za dodawanie elementów</br>
-    - prawy przycisk odpowiada za ich kasowanie</br></ul>
+6. Edycja mapy za pomoca przycisków myszy odpowiedzialnych za dodawanie i kasowanie elemntów</br><ul>
 7. Wybranie opcji zapisz mape</br>
 </ul>
 <b>Przebieg alternatywny</b>
