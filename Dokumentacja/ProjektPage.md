@@ -159,25 +159,25 @@ Wszystko zostało zaimplementowane tak, by nie ograniczać w przyszłości możl
 
 <b> Planowany rozwój aplikacji </b><ul>
 
-Rozróżnianie funkcji Zapisz i Zapisz Jako (zapisz jako powinno zawsze dawać 
+<li>Rozróżnianie funkcji Zapisz i Zapisz Jako (zapisz jako powinno zawsze dawać 
 okno dialogowe, Zapisz tylko jeśli nie jest skojarzyny z jakimś plikiem, 
 można np to sprawdzić, tworząc wskaźnik FileTM i sprawdzać tam czy jest 
 ustawiona jakaś ścieżka i automatycznie zapisywać bez sprawdzania).
 </br>
-Sprawdzanie poprawności zapisywanej mapy i dodatnie typu mapy 
+<li>Sprawdzanie poprawności zapisywanej mapy i dodatnie typu mapy 
 niekompletnej oraz sprawdzanie tego podczas zapisu.
 </br>
-Testy jednostkowe niektórych funkcji, po dopisaniu nowych, mogą nie być wykonane. Należy je usupelnić.
+<li>Testy jednostkowe niektórych funkcji, po dopisaniu nowych, mogą nie być wykonane. Należy je usupelnić.
 </br>
-Obsługa kolorów obrazków zamiast tylko kolorów i może też możliwość 
+<li>Obsługa kolorów obrazków zamiast tylko kolorów i może też możliwość 
 przełączania między jedną wersją a drugą.
 </br>
-Obsługa plików graficznych 3d, wybór ilości kształtów oraz ich wyglądu.
+<li>Obsługa plików graficznych 3d, wybór ilości kształtów oraz ich wyglądu.
 </br>
-Nawiązanie połączenia z chmurą i wymiana danych między nią 
+<li>Nawiązanie połączenia z chmurą i wymiana danych między nią 
 (Stworzenie interfejsu graficznego i klasy, która będzie się łączyć i pobierać dane).
 </br>
-Możliwość cofania i ponawiania akcji.
+<li>Możliwość cofania i ponawiania akcji.
 </br>
-Optymalizacja kodu.
+<li>Optymalizacja kodu.
 </ul>
