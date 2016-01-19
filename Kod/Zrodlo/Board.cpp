@@ -39,7 +39,8 @@ Board::~Board(){
 }
 
 Board& Board::operator=(const Board& source){
-	freeFields();
+	if (_fields != NULL)
+		freeFields();
 	_width = source.getWidth();
 	_height = source.getHeight();
 	reserveFields();
@@ -85,19 +86,21 @@ void Board::getSize(int& width, int& height) const{
 int Board::setValue(const int width, const int height, const char value){
 	if (_fields == NULL)
 		throw NullArrayException();
-	if (width < 0)
+	else if (width < 0)
 		throw NegativeIndexException(width);
-	if (width >= _width)
+	else if (width >= _width)
 		throw OutOfRangeIndexException(width);
-	if (height < 0)
+	else if (height < 0)
 		throw NegativeIndexException(height);
-	if (height >= _height)
+	else if (height >= _height)
 		throw OutOfRangeIndexException(height);
-	if (value < -1 || value > 5)
+	else if (value < -1 || value > 5)
 		throw WrongValueException(value);
-	char tmp = _fields[height][width];
-	_fields[height][width] = value;
-	return tmp;
+	else{
+		char tmp = _fields[height][width];
+		_fields[height][width] = value;
+		return tmp;
+	}
 }
 
 Board& Board::fillWith(const char value){
