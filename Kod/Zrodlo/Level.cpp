@@ -8,6 +8,15 @@ Level::Level(const int width, const int height) : _board(width, height){
 	_difficulty = 3;
 }
 
+Level& Level::operator=(const Level& source){
+	_board = source._board;
+	_theme = source._theme;
+	_difficulty = source._difficulty;
+	_custom_shapes = source._custom_shapes;
+	_name = source._name;	
+}
+
+
 Board& Level::getBoard(){
 	return _board;
 }
@@ -28,4 +37,13 @@ void Level::setDifficulty(const unsigned char difficulty){
 }
 void Level::setCustomShape(const bool custom){
 	_custom_shapes = custom;
+}
+void Level::setName(const char *name){
+	_name=  name;
+}
+void Level::setName(string name){
+	_name = name;
+}
+string Level::getName(){
+	return _name;
 }
