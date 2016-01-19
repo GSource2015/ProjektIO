@@ -113,3 +113,10 @@ Vector2D& Vector2D::fit(const float x_real_min, const float y_real_min, const fl
 	return *this;
 }
 
+Vector2D& Vector2D::refit(const float x_real_min, const float y_real_min, const float x_real_max, const float y_real_max, const float x_img_min, const float y_img_min, const float x_img_max, const float y_img_max){
+	float Sx = (x_img_max - x_img_min) / (x_real_max - x_real_min);
+	float Sy = (y_img_max - y_img_min) / (y_real_max - y_real_min);	
+	_vect[0] = (_vect[0] - x_img_min)/Sx + x_real_min;
+	_vect[1] = (y_img_max - y_img_min - _vect[1])/Sy + y_real_min;
+	return *this;
+}
