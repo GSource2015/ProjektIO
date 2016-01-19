@@ -44,13 +44,10 @@ Projektant poziomów: Edycja istniejacej mapy</br>
 
 <b>Podstawowy przebieg</b>
 <ul>
-1. Wybranie opcji <i>Plik -> Nowy </i> lub wcisniecie odpowiedniej kombinacji klawiszy.</br>
-2. Wpisanie wybranej nazwy poziomu, ustawienie szerokoci i wysokoci obrazu oraz wybranie motywu</br>
-3. Wybranie opcji <i>Nowy</i></br>
-4. Wybranie odpowiedniego koloru tla, sciany i podlóg.</br>
-5. Wybranie odpowiednich ksztatów figur</br>
-6. Edycja mapy za pomoca przycisków myszy odpowiedzialnych za dodawanie i kasowanie elemntów</br>
-7. Wybranie opcji zapisz mape</br>
+1. Utworzenie nowego motywu ustawiajac odpowiednie dane poczatkowe</br>
+2. Wybranie odpowiednich ksztatów figur</br>
+3. Edycja mapy za pomoca przycisków myszy odpowiedzialnych za dodawanie i kasowanie elemntów</br>
+4. Wybranie opcji zapisz mape</br>
 </ul>
 <b>Przebieg alternatywny</b>
 <ul>
@@ -61,24 +58,20 @@ Projektant poziomów: Edycja istniejacej mapy</br>
 1a3. Uruchamiany jest <i>UC05 - Edycja poziomu </i></br>
 </ul>
 </ul>
-<b>Przebieg alternatywny</b>
-<ul>
-2a. Uzytkownik nie wybral motywu
-<ul>
-2a1. Na ekranie zostaje wyswietlony komunikat informujacy o koniecznosci wybrania motywu
-</ul>
-</ul>
 
 <b>Przebieg alternatywny</b>
 <ul>
-3a. Użytkownik nie zdecydowal sie jednak na utworzenie nowej mapy
+3a. Użytkownik chce zmienić motyw
 <ul>
-3a1. Komunikat zawierajacy opcje tworzenia poziomu posiada również przycisk <i> Anuluj</i>, który użytkownik powinien wybrać
+3a1. Użytkownik wybiera jeden z gotowych motywów lub tworzy wlasny uruchamijac UC06</br>
 </ul>
+</ul>
+
+
 </ul>
 <b>Przebieg alternatywny</b>
 <ul>
-7a. Użytkownik decyduje sie przerwac edycje mapy bez zapisywania jej rezultatów
+4a. Użytkownik decyduje sie przerwac edycje mapy bez zapisywania jej rezultatów
 <ul>
-7a1. Użytkownik wybiera opcje <i> Zakończ </i> 
+4a1. Użytkownik wybiera opcje <i> Zakończ </i> 
 
