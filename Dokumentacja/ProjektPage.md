@@ -154,3 +154,30 @@ Strategia przyjęta w wypadku napotkania ryzyka: ze wzgldu na znikome prawdopodo
 <b>Informacje odnośnie implementacji</b>
 W demo będą UC00, UC01, UC03 i UC06, jednak możliwość wyboru tylko koloru, a nie tekstury. I w takiej kolejności powinny być implementowane (UC03 przed UC01).
 Wszystko zostało zaimplementowane tak, by nie ograniczać w przyszłości możliwości rozwoju kodu, a w miejscach, gdzie dana funkcjonalność nie jest używana, zostało zostawione miejsce (np w klasie FileTMWriter plik jest zapisywany i odczytywany wg przyjętego formatu, jednak zamiast wielkości obrazu, wpisujemy dwa razy 0). Więcej szczegółów w dokumentacji analitycznej projektu.
+
+
+
+<b> Planowany rozwój aplikacji </b><ul>
+
+Rozróżnianie funkcji Zapisz i Zapisz Jako (zapisz jako powinno zawsze dawać 
+okno dialogowe, Zapisz tylko jeśli nie jest skojarzyny z jakimś plikiem, 
+można np to sprawdzić, tworząc wskaźnik FileTM i sprawdzać tam czy jest 
+ustawiona jakaś ścieżka i automatycznie zapisywać bez sprawdzania).
+</br>
+Sprawdzanie poprawności zapisywanej mapy i dodatnie typu mapy 
+niekompletnej oraz sprawdzanie tego podczas zapisu.
+</br>
+Testy jednostkowe niektórych funkcji, po dopisaniu nowych, mogą nie być wykonane. Należy je usupelnić.
+</br>
+Obsługa kolorów obrazków zamiast tylko kolorów i może też możliwość 
+przełączania między jedną wersją a drugą.
+</br>
+Obsługa plików graficznych 3d, wybór ilości kształtów oraz ich wyglądu.
+</br>
+Nawiązanie połączenia z chmurą i wymiana danych między nią 
+(Stworzenie interfejsu graficznego i klasy, która będzie się łączyć i pobierać dane).
+</br>
+Możliwość cofania i ponawiania akcji.
+</br>
+Optymalizacja kodu.
+</ul>
