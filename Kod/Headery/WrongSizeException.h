@@ -1,3 +1,11 @@
+///-----------------------------------------------------------------
+///
+/// @file      WrongSizeException.h
+/// @author    GSource
+/// @section   OPIS
+///            Wyjątek mówiący, że próbowano stworzyć za dużą tablicę
+///
+///------------------------------------------------------------------
 #ifndef _WRONGSIZEEXPCETION_H_
 #define _WRONGSIZEEXPCETION_H_
 #include <iostream>
