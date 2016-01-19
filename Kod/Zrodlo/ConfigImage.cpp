@@ -2,7 +2,8 @@
 #include <cmath>
 ConfigImage::ConfigImage(const int wimg, const int himg) :
 _wimg(wimg), _himg(himg) {
-	calculateRatio();
+	_scalex = 1;
+	_scaley = 1;
 }
 
 int ConfigImage::getImgWidth(){
