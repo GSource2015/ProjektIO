@@ -9,9 +9,12 @@
 #include "NullArrayException.h"
 #include "WrongValueException.h"
 #include "WrongSizeException.h"
-
+#include <wx/dcclient.h>
+#include <wx/panel.h>
 #define BOOST_TEST_MODULE EditorTM test
 #include <boost/test/unit_test.hpp>
+#include "FileTMWriter.h"
+#include "FileTMReader.h"
 
 BOOST_AUTO_TEST_SUITE(test_Vector2D);
 	BOOST_AUTO_TEST_CASE(constructors_test){
@@ -387,9 +390,11 @@ BOOST_AUTO_TEST_SUITE(test_Board);
 	}
 BOOST_AUTO_TEST_SUITE_END();
 
+
 BOOST_AUTO_TEST_SUITE(test_ConfigImage);
 	BOOST_AUTO_TEST_CASE(ratio_test){
 		ConfigImage cfgim(100, 150);
+		cfgim.calculateRatio();
 		BOOST_CHECK_EQUAL(cfgim.getScaleX(), 1);
 		BOOST_CHECK_EQUAL(cfgim.getScaleY(), 1.5);
 		cfgim.setImgSize(150, 50);
@@ -402,6 +407,7 @@ BOOST_AUTO_TEST_SUITE(test_ConfigImage);
 		BOOST_CHECK_EQUAL(cfgim.getScaleY(), 0);
 	}
 BOOST_AUTO_TEST_SUITE_END();
+
 
 BOOST_AUTO_TEST_SUITE(test_Level);
 	BOOST_AUTO_TEST_CASE(difficulty_test){
@@ -421,6 +427,61 @@ BOOST_AUTO_TEST_CASE(adjusting_test){
 	BOOST_CHECK_EQUAL(x0, -2.5);
 	BOOST_CHECK_EQUAL(y0, -3);
 	BOOST_CHECK_EQUAL(x1, 2.5);
-	BOOST_CHECK_EQUAL(x1, 3);
+	BOOST_CHECK_EQUAL(y1, 3);
+	mi.setImgSize(100, 200);
+	mi.adjustParameters(lvl1);
+	mi.calculateRatio();
+//	mi.drawMap(lvl1);
 }
+BOOST_AUTO_TEST_CASE(refitting_test){
+	Level lvl1(10, 10);
+	MapImage mi(lvl1);
+	mi.setImgSize(110, 110);
+	mi.adjustParameters(lvl1);
+	mi.calculateRatio();
+	mi.updateActiveField(13, 92);
+}
+
+BOOST_AUTO_TEST_SUITE_END();
+
+BOOST_AUTO_TEST_SUITE(test_file)
+	BOOST_AUTO_TEST_CASE(write_read_test){
+
+		Level lvl(5, 6);
+		Board& brd = lvl.getBoard();
+		Theme& thm = lvl.getTheme();
+		lvl.setName("pierwszy");
+		thm.loadBackground(33);
+		thm.loadWalls(10);
+		thm.setName("motyw");
+		brd(2, 5, 3);
+		thm.loadFloor(2, 23914);
+		thm.isDefault = false;
+		FileTMWriter f("mapa.tmm");
+		f.writeMap(lvl);
+		f.setPath("theme.tmt");
+		f.writeTheme(thm);
+		thm.isDefault = true;
+		f.setPath("samamapa.tmm");
+		f.writeMap(lvl);
+		f.setPath("");
+		BOOST_CHECK_THROW(f.writeMap(lvl), FileException);
+		FileTMReader fr("mapa.tmm");
+		Level lvl2 = fr.readMap();
+		Board& brd2 = lvl2.getBoard();
+		Theme& thm2 = lvl2.getTheme();
+		BOOST_CHECK_EQUAL(lvl2.getName(), lvl.getName());
+		BOOST_CHECK_EQUAL(brd2(2, 5), brd(2, 5));
+		BOOST_CHECK_EQUAL(thm2.getName(), thm.getName());
+		BOOST_CHECK_EQUAL(thm2.getFloor(2).GetRGB(), thm.getFloor(2).GetRGB());
+		BOOST_CHECK_THROW(fr.readTheme(), FileException);
+		FileTMReader fr2("samamapa.tmm");
+		Level lvl3 = fr.readMap();
+		Board& brd3 = lvl3.getBoard();
+		Theme& thm3 = lvl3.getTheme();
+		BOOST_CHECK_EQUAL(brd3(2, 5), brd(2, 5));
+		BOOST_CHECK_EQUAL(lvl2.getName(), lvl.getName());
+	}
+
+
 BOOST_AUTO_TEST_SUITE_END();
