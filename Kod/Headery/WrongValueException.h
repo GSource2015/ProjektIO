@@ -1,3 +1,11 @@
+///-----------------------------------------------------------------
+///
+/// @file      WrongSizeException.h
+/// @author    GSource
+/// @section   OPIS
+///            Wyjątek mówiący, że przekazano do funkcji niedozwolną wartość
+///
+///------------------------------------------------------------------
 #ifndef _WRONGVALUEEXCEPTION_H_
 #define _WRONGVALUEEXCEPTION_H_
 #include <iostream>
